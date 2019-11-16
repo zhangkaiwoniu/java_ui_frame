@@ -1,0 +1,914 @@
+2019-11-09 10:14:54  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-09 10:14:54  [ main:46 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 10:14:54  [ main:47 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 10:15:46  [ main:51985 ] - [ INFO ]  输入18909276261
+2019-11-09 10:15:46  [ main:52319 ] - [ INFO ]  输入zk18909276261
+2019-11-09 10:15:46  [ main:52374 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 10:15:46  [ main:52382 ] - [ INFO ]  test_01_addVIP Start
+2019-11-09 10:15:51  [ main:56712 ] - [ INFO ]  点击By.xpath: //a[@data-id="member"]//div[@class="word"]
+2019-11-09 10:15:57  [ main:62617 ] - [ INFO ]  点击By.xpath: //a[contains(text(),'新增会员')]
+2019-11-09 10:15:57  [ main:62767 ] - [ INFO ]  输入小强
+2019-11-09 10:15:57  [ main:63324 ] - [ INFO ]  输入18909287273
+2019-11-09 10:15:58  [ main:63727 ] - [ INFO ]  输入jake
+2019-11-09 10:16:00  [ main:65825 ] - [ INFO ]  点击By.xpath: //snail-members/div[2]/div/div/div[3]/div[2]
+2019-11-09 10:16:01  [ main:66779 ] - [ INFO ]  test_01_addVIP Success
+2019-11-09 10:16:01  [ main:66780 ] - [ INFO ]  test_02_modifyVIP Start
+2019-11-09 10:16:01  [ main:66871 ] - [ INFO ]  点击By.cssSelector: .body td:nth-of-type(10) [href='javascript\:void\(0\)\;']:nth-of-type(2)
+2019-11-09 10:16:01  [ main:67215 ] - [ INFO ]  输入阿黄
+2019-11-09 10:16:01  [ main:67531 ] - [ INFO ]  输入18909287273
+2019-11-09 10:16:02  [ main:67981 ] - [ INFO ]  输入mali
+2019-11-09 10:16:02  [ main:68085 ] - [ INFO ]  点击By.xpath: //snail-members/div[2]/div/div/div[3]/div[2]
+2019-11-09 10:16:04  [ main:69956 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 10:16:04  [ main:69958 ] - [ INFO ]  new folder successful
+2019-11-09 10:16:04  [ main:69959 ] - [ INFO ]  当前时间为：20191109_101604
+2019-11-09 10:16:04  [ main:70446 ] - [ INFO ]  test_02_modifyVIP Failure
+2019-11-09 10:16:04  [ main:70447 ] - [ INFO ]  test_03_deleteOne Start
+2019-11-09 10:16:04  [ main:70523 ] - [ INFO ]  点击By.xpath: //div[@id="content"]//tr[1]//a[text()='删除']
+2019-11-09 10:16:05  [ main:70590 ] - [ INFO ]  点击By.cssSelector: .layui-layer-btn0
+2019-11-09 10:16:05  [ main:71498 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 10:16:05  [ main:71499 ] - [ INFO ]  当前时间为：20191109_101605
+2019-11-09 10:16:05  [ main:71523 ] - [ INFO ]  test_03_deleteOne Failure
+2019-11-09 10:16:07  [ main:73236 ] - [ INFO ]  PassedTests = test_01_addVIP
+2019-11-09 10:16:07  [ main:73237 ] - [ INFO ]  failedTest = test_02_modifyVIP
+2019-11-09 10:16:07  [ main:73237 ] - [ INFO ]  failedTest = test_03_deleteOne
+2019-11-09 10:17:27  [ main:1 ] - [ INFO ]  retrycount=0
+2019-11-09 10:17:27  [ main:29 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 10:17:27  [ main:30 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 10:17:48  [ main:21031 ] - [ INFO ]  输入18909276261
+2019-11-09 10:17:48  [ main:21359 ] - [ INFO ]  输入zk18909276261
+2019-11-09 10:17:48  [ main:21404 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 10:17:48  [ main:21411 ] - [ INFO ]  test_01_addVIP Start
+2019-11-09 10:17:53  [ main:25736 ] - [ INFO ]  点击By.xpath: //a[@data-id="member"]//div[@class="word"]
+2019-11-09 10:17:58  [ main:31000 ] - [ INFO ]  点击By.xpath: //a[contains(text(),'新增会员')]
+2019-11-09 10:17:58  [ main:31214 ] - [ INFO ]  输入小强
+2019-11-09 10:17:58  [ main:31560 ] - [ INFO ]  输入18909287273
+2019-11-09 10:17:59  [ main:31771 ] - [ INFO ]  输入jake
+2019-11-09 10:17:59  [ main:32404 ] - [ INFO ]  点击By.xpath: //snail-members/div[2]/div/div/div[3]/div[2]
+2019-11-09 10:18:00  [ main:33069 ] - [ INFO ]  test_01_addVIP Success
+2019-11-09 10:18:00  [ main:33070 ] - [ INFO ]  test_02_modifyVIP Start
+2019-11-09 10:18:00  [ main:33162 ] - [ INFO ]  点击By.cssSelector: .body td:nth-of-type(10) [href='javascript\:void\(0\)\;']:nth-of-type(2)
+2019-11-09 10:18:00  [ main:33512 ] - [ INFO ]  输入阿黄
+2019-11-09 10:18:01  [ main:33866 ] - [ INFO ]  输入18909287273
+2019-11-09 10:18:01  [ main:34197 ] - [ INFO ]  输入mali
+2019-11-09 10:18:01  [ main:34295 ] - [ INFO ]  点击By.xpath: //snail-members/div[2]/div/div/div[3]/div[2]
+2019-11-09 10:18:03  [ main:36653 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 10:18:03  [ main:36654 ] - [ INFO ]  当前时间为：20191109_101803
+2019-11-09 10:18:04  [ main:36803 ] - [ INFO ]  test_02_modifyVIP Failure
+2019-11-09 10:18:04  [ main:36805 ] - [ INFO ]  test_03_deleteOne Start
+2019-11-09 10:18:04  [ main:36865 ] - [ INFO ]  点击By.xpath: //div[@id="content"]//tr[1]//a[text()='删除']
+2019-11-09 10:18:04  [ main:36916 ] - [ INFO ]  点击By.cssSelector: .layui-layer-btn0
+2019-11-09 10:18:05  [ main:38136 ] - [ INFO ]  test_03_deleteOne Success
+2019-11-09 10:18:07  [ main:39750 ] - [ INFO ]  PassedTests = test_03_deleteOne
+2019-11-09 10:18:07  [ main:39751 ] - [ INFO ]  PassedTests = test_01_addVIP
+2019-11-09 10:18:07  [ main:39752 ] - [ INFO ]  failedTest = test_02_modifyVIP
+2019-11-09 10:39:18  [ main:0 ] - [ INFO ]  输入qedqwe
+2019-11-09 10:39:22  [ main:4063 ] - [ INFO ]  输入12345
+2019-11-09 10:47:21  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-09 10:47:21  [ main:6 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 10:47:21  [ main:6 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 10:47:42  [ main:20982 ] - [ INFO ]  输入18909276261
+2019-11-09 10:47:42  [ main:21253 ] - [ INFO ]  输入zk18909276261
+2019-11-09 10:47:42  [ main:21311 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 10:47:42  [ main:21317 ] - [ INFO ]  test_01_addVIP Start
+2019-11-09 10:47:47  [ main:25639 ] - [ INFO ]  点击By.xpath: //a[@data-id="member"]//div[@class="word"]
+2019-11-09 10:47:52  [ main:30918 ] - [ INFO ]  点击By.xpath: //a[contains(text(),'新增会员')]
+2019-11-09 10:47:52  [ main:31087 ] - [ INFO ]  输入小强
+2019-11-09 10:47:53  [ main:31354 ] - [ INFO ]  输入18909287273
+2019-11-09 10:47:53  [ main:31503 ] - [ INFO ]  输入jake
+2019-11-09 10:47:53  [ main:31779 ] - [ INFO ]  点击By.xpath: //snail-members/div[2]/div/div/div[3]/div[2]
+2019-11-09 10:47:54  [ main:33225 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 10:47:54  [ main:33228 ] - [ INFO ]  当前时间为：20191109_104754
+2019-11-09 10:47:55  [ main:33444 ] - [ INFO ]  test_01_addVIP Failure
+2019-11-09 10:47:55  [ main:33447 ] - [ INFO ]  test_02_modifyVIP Start
+2019-11-09 10:47:55  [ main:33524 ] - [ INFO ]  点击By.cssSelector: .body td:nth-of-type(10) [href='javascript\:void\(0\)\;']:nth-of-type(2)
+2019-11-09 10:47:55  [ main:33934 ] - [ INFO ]  输入阿黄
+2019-11-09 10:47:56  [ main:34359 ] - [ INFO ]  输入18909287273
+2019-11-09 10:47:56  [ main:34851 ] - [ INFO ]  输入mali
+2019-11-09 10:47:56  [ main:34921 ] - [ INFO ]  点击By.xpath: //snail-members/div[2]/div/div/div[3]/div[2]
+2019-11-09 10:47:57  [ main:36311 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 10:47:57  [ main:36312 ] - [ INFO ]  当前时间为：20191109_104757
+2019-11-09 10:47:57  [ main:36344 ] - [ INFO ]  test_02_modifyVIP Failure
+2019-11-09 10:47:57  [ main:36345 ] - [ INFO ]  test_03_deleteOne Start
+2019-11-09 10:47:58  [ main:36403 ] - [ INFO ]  点击By.xpath: //div[@id="content"]//tr[1]//a[text()='删除']
+2019-11-09 10:47:58  [ main:36452 ] - [ INFO ]  点击By.cssSelector: .layui-layer-btn0
+2019-11-09 10:47:59  [ main:37930 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 10:47:59  [ main:37930 ] - [ INFO ]  当前时间为：20191109_104759
+2019-11-09 10:47:59  [ main:37936 ] - [ INFO ]  test_03_deleteOne Failure
+2019-11-09 10:48:00  [ main:39281 ] - [ INFO ]  failedTest = test_03_deleteOne
+2019-11-09 10:48:00  [ main:39281 ] - [ INFO ]  failedTest = test_02_modifyVIP
+2019-11-09 10:48:00  [ main:39282 ] - [ INFO ]  failedTest = test_01_addVIP
+2019-11-09 10:50:56  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-09 10:50:56  [ main:3 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 10:50:56  [ main:4 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 10:51:16  [ main:19878 ] - [ INFO ]  输入18909276261
+2019-11-09 10:51:16  [ main:20215 ] - [ INFO ]  输入zk18909276261
+2019-11-09 10:51:16  [ main:20269 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 10:51:16  [ main:20278 ] - [ INFO ]  test_01_addVIP Start
+2019-11-09 10:51:21  [ main:24836 ] - [ INFO ]  点击By.xpath: //a[@data-id="member"]//div[@class="word"]
+2019-11-09 10:51:25  [ main:29286 ] - [ INFO ]  点击By.xpath: //a[contains(text(),'新增会员')]
+2019-11-09 10:51:26  [ main:29464 ] - [ INFO ]  输入小强
+2019-11-09 10:51:26  [ main:29699 ] - [ INFO ]  输入18909287273
+2019-11-09 10:51:26  [ main:29842 ] - [ INFO ]  输入jake
+2019-11-09 10:51:26  [ main:29961 ] - [ INFO ]  点击By.xpath: //snail-members/div[2]/div/div/div[3]/div[2]
+2019-11-09 10:51:27  [ main:30470 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 10:51:27  [ main:30470 ] - [ INFO ]  当前时间为：20191109_105127
+2019-11-09 10:51:27  [ main:30489 ] - [ INFO ]  test_01_addVIP Failure
+2019-11-09 10:51:27  [ main:30493 ] - [ INFO ]  test_02_modifyVIP Start
+2019-11-09 10:51:27  [ main:30568 ] - [ INFO ]  点击By.cssSelector: .body td:nth-of-type(10) [href='javascript\:void\(0\)\;']:nth-of-type(2)
+2019-11-09 10:51:27  [ main:31204 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 10:51:27  [ main:31205 ] - [ INFO ]  当前时间为：20191109_105127
+2019-11-09 10:51:27  [ main:31208 ] - [ INFO ]  test_02_modifyVIP Failure
+2019-11-09 10:51:27  [ main:31210 ] - [ INFO ]  test_03_deleteOne Start
+2019-11-09 10:51:27  [ main:31281 ] - [ INFO ]  点击By.xpath: //div[@id="content"]//tr[1]//a[text()='删除']
+2019-11-09 10:51:27  [ main:31326 ] - [ INFO ]  点击By.cssSelector: .layui-layer-btn0
+2019-11-09 10:51:29  [ main:32739 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 10:51:29  [ main:32740 ] - [ INFO ]  当前时间为：20191109_105129
+2019-11-09 10:51:29  [ main:32745 ] - [ INFO ]  test_03_deleteOne Failure
+2019-11-09 10:51:30  [ main:33873 ] - [ INFO ]  failedTest = test_03_deleteOne
+2019-11-09 10:51:30  [ main:33874 ] - [ INFO ]  failedTest = test_02_modifyVIP
+2019-11-09 10:51:30  [ main:33874 ] - [ INFO ]  failedTest = test_01_addVIP
+2019-11-09 10:52:53  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-09 10:52:53  [ main:6 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 10:52:53  [ main:7 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 10:53:14  [ main:20686 ] - [ INFO ]  输入18909276261
+2019-11-09 10:53:14  [ main:20966 ] - [ INFO ]  输入zk18909276261
+2019-11-09 10:53:14  [ main:21016 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 10:53:14  [ main:21023 ] - [ INFO ]  test_01_addVIP Start
+2019-11-09 10:53:19  [ main:25473 ] - [ INFO ]  点击By.xpath: //a[@data-id="member"]//div[@class="word"]
+2019-11-09 10:53:23  [ main:30125 ] - [ INFO ]  点击By.xpath: //a[contains(text(),'新增会员')]
+2019-11-09 10:53:23  [ main:30322 ] - [ INFO ]  输入小强
+2019-11-09 10:53:24  [ main:30597 ] - [ INFO ]  输入18909287273
+2019-11-09 10:53:24  [ main:30762 ] - [ INFO ]  输入jake
+2019-11-09 10:53:24  [ main:30882 ] - [ INFO ]  点击By.xpath: //snail-members/div[2]/div/div/div[3]/div[2]
+2019-11-09 10:53:24  [ main:31395 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 10:53:24  [ main:31396 ] - [ INFO ]  当前时间为：20191109_105324
+2019-11-09 10:53:25  [ main:31411 ] - [ INFO ]  test_01_addVIP Failure
+2019-11-09 10:53:25  [ main:31413 ] - [ INFO ]  test_02_modifyVIP Start
+2019-11-09 10:53:25  [ main:31493 ] - [ INFO ]  点击By.cssSelector: .body td:nth-of-type(10) [href='javascript\:void\(0\)\;']:nth-of-type(2)
+2019-11-09 10:53:25  [ main:31538 ] - [ INFO ]  点击By.xpath: //input[@name='name']
+2019-11-09 10:53:26  [ main:32928 ] - [ INFO ]  输入阿黄
+2019-11-09 10:53:26  [ main:33270 ] - [ INFO ]  点击By.xpath: //input[@name="phone"]
+2019-11-09 10:53:27  [ main:33542 ] - [ INFO ]  输入18909287273
+2019-11-09 10:53:27  [ main:33594 ] - [ INFO ]  点击By.xpath: //input[@name="petName"]
+2019-11-09 10:53:27  [ main:33780 ] - [ INFO ]  输入mali
+2019-11-09 10:53:27  [ main:33994 ] - [ INFO ]  点击By.xpath: //snail-members/div[2]/div/div/div[3]/div[2]
+2019-11-09 10:53:29  [ main:35424 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 10:53:29  [ main:35425 ] - [ INFO ]  当前时间为：20191109_105329
+2019-11-09 10:53:29  [ main:35450 ] - [ INFO ]  test_02_modifyVIP Failure
+2019-11-09 10:53:29  [ main:35451 ] - [ INFO ]  test_03_deleteOne Start
+2019-11-09 10:53:29  [ main:35526 ] - [ INFO ]  点击By.xpath: //div[@id="content"]//tr[1]//a[text()='删除']
+2019-11-09 10:53:29  [ main:35582 ] - [ INFO ]  点击By.cssSelector: .layui-layer-btn0
+2019-11-09 10:53:30  [ main:37045 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 10:53:30  [ main:37046 ] - [ INFO ]  当前时间为：20191109_105330
+2019-11-09 10:53:30  [ main:37065 ] - [ INFO ]  test_03_deleteOne Failure
+2019-11-09 10:53:31  [ main:38142 ] - [ INFO ]  failedTest = test_03_deleteOne
+2019-11-09 10:53:31  [ main:38142 ] - [ INFO ]  failedTest = test_01_addVIP
+2019-11-09 10:53:31  [ main:38142 ] - [ INFO ]  failedTest = test_02_modifyVIP
+2019-11-09 10:54:53  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-09 10:54:53  [ main:4 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 10:54:53  [ main:5 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 10:55:14  [ main:21724 ] - [ INFO ]  输入18909276261
+2019-11-09 10:55:15  [ main:22081 ] - [ INFO ]  输入zk18909276261
+2019-11-09 10:55:15  [ main:22133 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 10:55:15  [ main:22140 ] - [ INFO ]  test_01_addVIP Start
+2019-11-09 10:55:19  [ main:26365 ] - [ INFO ]  点击By.xpath: //a[@data-id="member"]//div[@class="word"]
+2019-11-09 10:55:24  [ main:30922 ] - [ INFO ]  点击By.xpath: //a[contains(text(),'新增会员')]
+2019-11-09 10:55:24  [ main:31081 ] - [ INFO ]  输入小强
+2019-11-09 10:55:24  [ main:31341 ] - [ INFO ]  输入18909287273
+2019-11-09 10:55:24  [ main:31506 ] - [ INFO ]  输入jake
+2019-11-09 10:55:24  [ main:31611 ] - [ INFO ]  点击By.xpath: //snail-members/div[2]/div/div/div[3]/div[2]
+2019-11-09 10:55:25  [ main:31970 ] - [ INFO ]  test_01_addVIP Success
+2019-11-09 10:55:25  [ main:31971 ] - [ INFO ]  test_02_modifyVIP Start
+2019-11-09 10:55:25  [ main:32052 ] - [ INFO ]  点击By.cssSelector: .body td:nth-of-type(10) [href='javascript\:void\(0\)\;']:nth-of-type(2)
+2019-11-09 10:55:25  [ main:32098 ] - [ INFO ]  点击By.xpath: //input[@name='name']
+2019-11-09 10:55:25  [ main:32500 ] - [ INFO ]  输入阿黄
+2019-11-09 10:55:25  [ main:32542 ] - [ INFO ]  点击By.xpath: //input[@name="phone"]
+2019-11-09 10:55:26  [ main:32867 ] - [ INFO ]  输入18908287273
+2019-11-09 10:55:26  [ main:32911 ] - [ INFO ]  点击By.xpath: //input[@name="petName"]
+2019-11-09 10:55:26  [ main:33083 ] - [ INFO ]  输入mali
+2019-11-09 10:55:26  [ main:33158 ] - [ INFO ]  点击By.xpath: //snail-members/div[2]/div/div/div[3]/div[2]
+2019-11-09 10:55:27  [ main:34218 ] - [ INFO ]  test_02_modifyVIP Success
+2019-11-09 10:55:27  [ main:34220 ] - [ INFO ]  test_03_deleteOne Start
+2019-11-09 10:55:27  [ main:34281 ] - [ INFO ]  点击By.xpath: //div[@id="content"]//tr[1]//a[text()='删除']
+2019-11-09 10:55:27  [ main:34324 ] - [ INFO ]  点击By.cssSelector: .layui-layer-btn0
+2019-11-09 10:55:28  [ main:35381 ] - [ INFO ]  test_03_deleteOne Success
+2019-11-09 10:55:29  [ main:36460 ] - [ INFO ]  PassedTests = test_01_addVIP
+2019-11-09 10:55:29  [ main:36460 ] - [ INFO ]  PassedTests = test_02_modifyVIP
+2019-11-09 10:55:29  [ main:36461 ] - [ INFO ]  PassedTests = test_03_deleteOne
+2019-11-09 11:12:42  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-09 11:12:42  [ main:7 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 11:12:42  [ main:8 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 11:13:06  [ main:23421 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-09 11:13:06  [ main:23822 ] - [ INFO ]  输入18909276261
+2019-11-09 11:13:06  [ main:24116 ] - [ INFO ]  输入zk18909276261
+2019-11-09 11:13:06  [ main:24163 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 11:13:06  [ main:24171 ] - [ INFO ]  test_01_addGoods Start
+2019-11-09 11:13:19  [ main:36771 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:13:23  [ main:40330 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 11:13:27  [ main:44804 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 11:13:27  [ main:44858 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 11:13:30  [ main:48007 ] - [ INFO ]  输入猫粮
+2019-11-09 11:13:30  [ main:48045 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 11:13:30  [ main:48094 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 11:13:30  [ main:48129 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 11:13:30  [ main:48165 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 11:13:30  [ main:48223 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 11:13:32  [ main:50107 ] - [ INFO ]  test_01_addGoods Success
+2019-11-09 11:13:32  [ main:50108 ] - [ INFO ]  test_02_deleteOne Start
+2019-11-09 11:13:32  [ main:50173 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:13:32  [ main:50201 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 11:13:32  [ main:50270 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 11:13:33  [ main:50308 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 11:13:33  [ main:50876 ] - [ INFO ]  输入猫粮
+2019-11-09 11:13:33  [ main:50914 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 11:13:33  [ main:50967 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 11:13:33  [ main:51016 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 11:13:33  [ main:51164 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 11:13:33  [ main:51221 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 11:13:34  [ main:51314 ] - [ INFO ]  点击By.cssSelector: .js-check-box span:nth-of-type(1) span:nth-of-type(2)
+2019-11-09 11:14:05  [ main:82659 ] - [ ERROR ]  元素By.xpath: //div[@class="layui-layer layui-layer-dialog"]/div[3]/a[text()="确定"]查找超时
+2019-11-09 11:14:06  [ main:83377 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 11:14:06  [ main:83379 ] - [ INFO ]  当前时间为：20191109_111406
+2019-11-09 11:14:06  [ main:83490 ] - [ INFO ]  test_02_deleteOne Failure
+2019-11-09 11:14:06  [ main:83493 ] - [ INFO ]  test_03_deleteAll Start
+2019-11-09 11:14:06  [ main:83628 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:14:06  [ main:83659 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 11:14:06  [ main:83807 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 11:14:06  [ main:83855 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 11:14:07  [ main:84324 ] - [ INFO ]  输入猫粮
+2019-11-09 11:14:07  [ main:84358 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 11:14:07  [ main:84410 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 11:14:07  [ main:84443 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 11:14:07  [ main:84495 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 11:14:07  [ main:84543 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 11:14:07  [ main:84595 ] - [ INFO ]  点击By.xpath: /html//input[@id='all_1']
+2019-11-09 11:14:10  [ main:87667 ] - [ INFO ]  点击By.xpath: /html/body/app-root/div/ng-component/div/div/snail-product-stock/div[1]/div[4]
+2019-11-09 11:14:10  [ main:87711 ] - [ INFO ]  点击By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]/div[1]/ul/li[6]
+2019-11-09 11:14:10  [ main:87772 ] - [ INFO ]  点击By.xpath: //div[text()="修改"]
+2019-11-09 11:14:11  [ main:89186 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 11:14:11  [ main:89188 ] - [ INFO ]  当前时间为：20191109_111411
+2019-11-09 11:14:11  [ main:89193 ] - [ INFO ]  test_03_deleteAll Failure
+2019-11-09 11:14:13  [ main:90471 ] - [ INFO ]  PassedTests = test_01_addGoods
+2019-11-09 11:14:13  [ main:90472 ] - [ INFO ]  failedTest = test_03_deleteAll
+2019-11-09 11:14:13  [ main:90473 ] - [ INFO ]  failedTest = test_02_deleteOne
+2019-11-09 11:18:11  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-09 11:18:11  [ main:29 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 11:18:11  [ main:30 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 11:18:32  [ main:21099 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-09 11:18:32  [ main:21572 ] - [ INFO ]  输入18909276261
+2019-11-09 11:18:32  [ main:21942 ] - [ INFO ]  输入zk18909276261
+2019-11-09 11:18:33  [ main:21998 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 11:18:33  [ main:22007 ] - [ INFO ]  test_01_addGoods Start
+2019-11-09 11:18:37  [ main:26326 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:18:39  [ main:28458 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 11:18:39  [ main:28657 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 11:18:39  [ main:28693 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 11:18:40  [ main:29107 ] - [ INFO ]  输入猫粮
+2019-11-09 11:18:40  [ main:29138 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 11:18:41  [ main:30482 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 11:18:41  [ main:30540 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 11:18:41  [ main:30602 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 11:18:41  [ main:30676 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 11:18:42  [ main:31215 ] - [ INFO ]  test_01_addGoods Success
+2019-11-09 11:18:42  [ main:31216 ] - [ INFO ]  test_02_deleteOne Start
+2019-11-09 11:18:42  [ main:31278 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:18:42  [ main:31311 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 11:18:42  [ main:31436 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 11:18:42  [ main:31472 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 11:18:42  [ main:31934 ] - [ INFO ]  输入猫粮
+2019-11-09 11:18:43  [ main:31986 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 11:18:43  [ main:32024 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 11:18:43  [ main:32053 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 11:18:43  [ main:32088 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 11:18:43  [ main:32144 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 11:18:44  [ main:33820 ] - [ INFO ]  点击By.cssSelector: .js-check-box tr:nth-of-type(2) span:nth-of-type(1) span:nth-of-type(2)
+2019-11-09 11:18:45  [ main:34185 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer layui-layer-dialog"]/div[3]/a[text()="确定"]
+2019-11-09 11:18:46  [ main:35276 ] - [ INFO ]  test_02_deleteOne Success
+2019-11-09 11:18:46  [ main:35277 ] - [ INFO ]  test_03_deleteAll Start
+2019-11-09 11:18:46  [ main:35339 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:18:46  [ main:35365 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 11:18:46  [ main:35466 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 11:18:46  [ main:35504 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 11:18:46  [ main:35950 ] - [ INFO ]  输入猫粮
+2019-11-09 11:18:47  [ main:35981 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 11:18:47  [ main:36023 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 11:18:47  [ main:36054 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 11:18:47  [ main:36094 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 11:18:47  [ main:36130 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 11:18:47  [ main:36181 ] - [ INFO ]  点击By.xpath: /html//input[@id='all_1']
+2019-11-09 11:18:50  [ main:39240 ] - [ INFO ]  点击By.xpath: /html/body/app-root/div/ng-component/div/div/snail-product-stock/div[1]/div[4]
+2019-11-09 11:18:50  [ main:39289 ] - [ INFO ]  点击By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]/div[1]/ul/li[6]
+2019-11-09 11:18:50  [ main:39334 ] - [ INFO ]  点击By.xpath: //div[text()="修改"]
+2019-11-09 11:18:51  [ main:40393 ] - [ INFO ]  test_03_deleteAll Success
+2019-11-09 11:18:52  [ main:41458 ] - [ INFO ]  PassedTests = test_02_deleteOne
+2019-11-09 11:18:52  [ main:41459 ] - [ INFO ]  PassedTests = test_03_deleteAll
+2019-11-09 11:18:52  [ main:41460 ] - [ INFO ]  PassedTests = test_01_addGoods
+2019-11-09 11:20:29  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-09 11:20:29  [ main:5 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 11:20:29  [ main:5 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 11:20:51  [ main:21522 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-09 11:20:51  [ main:21980 ] - [ INFO ]  输入18909276261
+2019-11-09 11:20:51  [ main:22301 ] - [ INFO ]  输入zk18909276261
+2019-11-09 11:20:51  [ main:22357 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 11:20:51  [ main:22384 ] - [ INFO ]  test_01_addGoods Start
+2019-11-09 11:20:56  [ main:27244 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:20:59  [ main:30290 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 11:21:00  [ main:30999 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 11:21:00  [ main:31050 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 11:21:00  [ main:31457 ] - [ INFO ]  输入猫粮
+2019-11-09 11:21:01  [ main:31493 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 11:21:02  [ main:32689 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 11:21:02  [ main:32738 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 11:21:02  [ main:32777 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 11:21:02  [ main:32826 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 11:21:02  [ main:32875 ] - [ INFO ]  test_01_addGoods Success
+2019-11-09 11:21:02  [ main:32876 ] - [ INFO ]  test_01_addGoods Start
+2019-11-09 11:21:02  [ main:32948 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:21:02  [ main:32975 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 11:21:02  [ main:33015 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 11:21:02  [ main:33118 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 11:21:33  [ main:64439 ] - [ ERROR ]  元素By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[4]/div[1]/div/div/input查找超时
+2019-11-09 11:21:34  [ main:65138 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 11:21:34  [ main:65140 ] - [ INFO ]  当前时间为：20191109_112134
+2019-11-09 11:21:35  [ main:65569 ] - [ INFO ]  test_01_addGoods Failure
+2019-11-09 11:21:35  [ main:65570 ] - [ INFO ]  test_01_addGoods Start
+2019-11-09 11:21:35  [ main:65695 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:21:35  [ main:65738 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 11:21:35  [ main:65877 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 11:21:35  [ main:65950 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 11:21:35  [ main:66406 ] - [ INFO ]  输入狗圈
+2019-11-09 11:21:35  [ main:66456 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 11:21:36  [ main:66514 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 11:21:36  [ main:66547 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 11:21:36  [ main:66580 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 11:21:36  [ main:66623 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 11:21:36  [ main:67074 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 11:21:36  [ main:67075 ] - [ INFO ]  当前时间为：20191109_112136
+2019-11-09 11:21:36  [ main:67105 ] - [ INFO ]  test_01_addGoods Failure
+2019-11-09 11:21:36  [ main:67106 ] - [ INFO ]  test_02_deleteOne Start
+2019-11-09 11:21:36  [ main:67173 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:21:36  [ main:67202 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 11:21:36  [ main:67302 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 11:21:36  [ main:67333 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 11:21:37  [ main:67838 ] - [ INFO ]  输入猫粮
+2019-11-09 11:21:37  [ main:67870 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 11:21:37  [ main:67914 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 11:21:37  [ main:67939 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 11:21:37  [ main:67970 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 11:21:37  [ main:68018 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 11:21:37  [ main:68131 ] - [ INFO ]  点击By.cssSelector: .js-check-box tr:nth-of-type(2) span:nth-of-type(1) span:nth-of-type(2)
+2019-11-09 11:21:37  [ main:68446 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer layui-layer-dialog"]/div[3]/a[text()="确定"]
+2019-11-09 11:21:39  [ main:69880 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 11:21:39  [ main:69881 ] - [ INFO ]  当前时间为：20191109_112139
+2019-11-09 11:21:39  [ main:69887 ] - [ INFO ]  test_02_deleteOne Failure
+2019-11-09 11:21:39  [ main:69888 ] - [ INFO ]  test_03_deleteAll Start
+2019-11-09 11:21:39  [ main:69964 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:21:39  [ main:69993 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 11:21:39  [ main:70122 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 11:21:39  [ main:70196 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 11:21:40  [ main:70622 ] - [ INFO ]  输入猫粮
+2019-11-09 11:21:40  [ main:70670 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 11:21:40  [ main:70702 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 11:21:40  [ main:70736 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 11:21:40  [ main:70757 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 11:21:40  [ main:70789 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 11:21:40  [ main:70838 ] - [ INFO ]  点击By.xpath: /html//input[@id='all_1']
+2019-11-09 11:21:43  [ main:73871 ] - [ INFO ]  点击By.xpath: /html/body/app-root/div/ng-component/div/div/snail-product-stock/div[1]/div[4]
+2019-11-09 11:21:43  [ main:73939 ] - [ INFO ]  点击By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]/div[1]/ul/li[6]
+2019-11-09 11:21:43  [ main:73988 ] - [ INFO ]  点击By.xpath: //div[text()="修改"]
+2019-11-09 11:21:44  [ main:75027 ] - [ INFO ]  test_03_deleteAll Success
+2019-11-09 11:21:45  [ main:76042 ] - [ INFO ]  PassedTests = test_03_deleteAll
+2019-11-09 11:21:45  [ main:76043 ] - [ INFO ]  PassedTests = test_01_addGoods
+2019-11-09 11:21:45  [ main:76043 ] - [ INFO ]  failedTest = test_02_deleteOne
+2019-11-09 11:21:45  [ main:76043 ] - [ INFO ]  failedTest = test_01_addGoods
+2019-11-09 11:21:45  [ main:76043 ] - [ INFO ]  failedTest = test_01_addGoods
+2019-11-09 11:26:26  [ main:1 ] - [ INFO ]  retrycount=0
+2019-11-09 11:26:26  [ main:5 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 11:26:26  [ main:6 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 11:26:49  [ main:23202 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-09 11:26:50  [ main:23656 ] - [ INFO ]  输入18909276261
+2019-11-09 11:26:50  [ main:24040 ] - [ INFO ]  输入zk18909276261
+2019-11-09 11:26:50  [ main:24103 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 11:26:55  [ main:28382 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:26:57  [ main:30677 ] - [ INFO ]  点击By.xpath: /html//input[@id='all_1']
+2019-11-09 11:27:00  [ main:33721 ] - [ INFO ]  点击By.xpath: /html/body/app-root/div/ng-component/div/div/snail-product-stock/div[1]/div[4]
+2019-11-09 11:27:00  [ main:33788 ] - [ INFO ]  点击By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]/div[1]/ul/li[6]
+2019-11-09 11:27:00  [ main:33860 ] - [ INFO ]  点击By.xpath: //div[text()="修改"]
+2019-11-09 11:27:00  [ main:33871 ] - [ INFO ]  test_01_addGoods Start
+2019-11-09 11:27:00  [ main:33949 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:27:00  [ main:34002 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 11:27:00  [ main:34302 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 11:27:32  [ main:65499 ] - [ ERROR ]  元素By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]查找超时
+2019-11-09 11:27:32  [ main:66014 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 11:27:32  [ main:66015 ] - [ INFO ]  当前时间为：20191109_112732
+2019-11-09 11:27:32  [ main:66029 ] - [ INFO ]  test_01_addGoods Failure
+2019-11-09 11:27:32  [ main:66030 ] - [ INFO ]  test_02_deleteOne Start
+2019-11-09 11:27:32  [ main:66135 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:27:32  [ main:66186 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 11:27:32  [ main:66312 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 11:27:33  [ main:66345 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 11:27:33  [ main:66697 ] - [ INFO ]  输入猫粮
+2019-11-09 11:27:33  [ main:66731 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 11:27:34  [ main:67921 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 11:27:34  [ main:67974 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 11:27:34  [ main:68020 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 11:27:34  [ main:68072 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 11:27:34  [ main:68167 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:28:06  [ main:99342 ] - [ ERROR ]  元素By.cssSelector: .js-check-box tr:nth-of-type(2) span:nth-of-type(1) span:nth-of-type(2)查找超时
+2019-11-09 11:28:06  [ main:99753 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 11:28:06  [ main:99754 ] - [ INFO ]  当前时间为：20191109_112806
+2019-11-09 11:28:06  [ main:99759 ] - [ INFO ]  test_02_deleteOne Failure
+2019-11-09 11:28:06  [ main:99760 ] - [ INFO ]  test_03_deleteAll Start
+2019-11-09 11:28:06  [ main:99904 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:28:06  [ main:99935 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 11:28:06  [ main:100029 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 11:28:06  [ main:100091 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 11:28:07  [ main:100500 ] - [ INFO ]  输入猫粮
+2019-11-09 11:28:07  [ main:100531 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 11:28:07  [ main:100572 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 11:28:07  [ main:100616 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 11:28:07  [ main:100653 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 11:28:07  [ main:100699 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 11:28:07  [ main:100759 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:28:07  [ main:100830 ] - [ INFO ]  点击By.xpath: /html//input[@id='all_1']
+2019-11-09 11:28:10  [ main:103899 ] - [ INFO ]  点击By.xpath: /html/body/app-root/div/ng-component/div/div/snail-product-stock/div[1]/div[4]
+2019-11-09 11:28:10  [ main:103937 ] - [ INFO ]  点击By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]/div[1]/ul/li[6]
+2019-11-09 11:28:10  [ main:103982 ] - [ INFO ]  点击By.xpath: //div[text()="修改"]
+2019-11-09 11:28:11  [ main:105066 ] - [ INFO ]  test_03_deleteAll Success
+2019-11-09 11:28:12  [ main:105977 ] - [ INFO ]  PassedTests = test_03_deleteAll
+2019-11-09 11:28:12  [ main:105978 ] - [ INFO ]  failedTest = test_02_deleteOne
+2019-11-09 11:28:12  [ main:105979 ] - [ INFO ]  failedTest = test_01_addGoods
+2019-11-09 11:31:37  [ main:1 ] - [ INFO ]  retrycount=0
+2019-11-09 11:31:37  [ main:5 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 11:31:37  [ main:6 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 11:31:59  [ main:22073 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-09 11:32:00  [ main:22594 ] - [ INFO ]  输入18909276261
+2019-11-09 11:32:00  [ main:22975 ] - [ INFO ]  输入zk18909276261
+2019-11-09 11:32:00  [ main:23031 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 11:32:04  [ main:27464 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:32:07  [ main:30371 ] - [ INFO ]  点击By.xpath: /html//input[@id='all_1']
+2019-11-09 11:32:10  [ main:33415 ] - [ INFO ]  点击By.xpath: /html/body/app-root/div/ng-component/div/div/snail-product-stock/div[1]/div[4]
+2019-11-09 11:32:10  [ main:33471 ] - [ INFO ]  点击By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]/div[1]/ul/li[6]
+2019-11-09 11:32:10  [ main:33529 ] - [ INFO ]  点击By.xpath: //div[text()="修改"]
+2019-11-09 11:32:12  [ main:35541 ] - [ INFO ]  test_01_addGoods Start
+2019-11-09 11:32:13  [ main:35613 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:32:13  [ main:35645 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 11:32:13  [ main:35957 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 11:32:13  [ main:36000 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 11:32:13  [ main:36430 ] - [ INFO ]  输入狗粮
+2019-11-09 11:32:13  [ main:36472 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 11:32:15  [ main:37605 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 11:32:15  [ main:37648 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 11:32:15  [ main:37713 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 11:32:15  [ main:37759 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 11:32:16  [ main:38723 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 11:32:16  [ main:38725 ] - [ INFO ]  当前时间为：20191109_113216
+2019-11-09 11:32:16  [ main:38800 ] - [ INFO ]  test_01_addGoods Failure
+2019-11-09 11:32:16  [ main:38804 ] - [ INFO ]  test_02_deleteOne Start
+2019-11-09 11:32:16  [ main:38880 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:32:16  [ main:38906 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 11:32:16  [ main:38984 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 11:32:16  [ main:39011 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 11:32:16  [ main:39558 ] - [ INFO ]  输入猫粮
+2019-11-09 11:32:17  [ main:39609 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 11:32:17  [ main:39652 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 11:32:17  [ main:39684 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 11:32:17  [ main:39712 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 11:32:17  [ main:39747 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 11:32:17  [ main:39814 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:32:17  [ main:39853 ] - [ INFO ]  点击By.cssSelector: .js-check-box tr:nth-of-type(2) span:nth-of-type(1) span:nth-of-type(2)
+2019-11-09 11:32:48  [ main:71176 ] - [ ERROR ]  元素By.xpath: //div[@class="layui-layer layui-layer-dialog"]/div[3]/a[text()="确定"]查找超时
+2019-11-09 11:32:49  [ main:71599 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 11:32:49  [ main:71599 ] - [ INFO ]  当前时间为：20191109_113249
+2019-11-09 11:32:49  [ main:71603 ] - [ INFO ]  test_02_deleteOne Failure
+2019-11-09 11:32:49  [ main:71604 ] - [ INFO ]  test_03_deleteAll Start
+2019-11-09 11:32:49  [ main:71722 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:32:49  [ main:71758 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 11:32:49  [ main:71887 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 11:32:49  [ main:71929 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 11:32:49  [ main:72387 ] - [ INFO ]  输入猫粮
+2019-11-09 11:32:49  [ main:72431 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 11:32:49  [ main:72487 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 11:32:49  [ main:72520 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 11:32:49  [ main:72555 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 11:32:50  [ main:72600 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 11:32:50  [ main:72681 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 11:32:50  [ main:72738 ] - [ INFO ]  点击By.xpath: /html//input[@id='all_1']
+2019-11-09 11:32:53  [ main:75811 ] - [ INFO ]  点击By.xpath: /html/body/app-root/div/ng-component/div/div/snail-product-stock/div[1]/div[4]
+2019-11-09 11:32:53  [ main:75873 ] - [ INFO ]  点击By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]/div[1]/ul/li[6]
+2019-11-09 11:32:53  [ main:75929 ] - [ INFO ]  点击By.xpath: //div[text()="修改"]
+2019-11-09 11:32:54  [ main:77009 ] - [ INFO ]  test_03_deleteAll Success
+2019-11-09 11:32:55  [ main:78139 ] - [ INFO ]  PassedTests = test_03_deleteAll
+2019-11-09 11:32:55  [ main:78140 ] - [ INFO ]  failedTest = test_02_deleteOne
+2019-11-09 11:32:55  [ main:78140 ] - [ INFO ]  failedTest = test_01_addGoods
+2019-11-09 14:42:08  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-09 14:42:08  [ main:50 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 14:42:08  [ main:51 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 14:43:00  [ main:51786 ] - [ INFO ]  输入18909276261
+2019-11-09 14:43:00  [ main:52194 ] - [ INFO ]  输入zk18909276261
+2019-11-09 14:43:00  [ main:52240 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 14:43:00  [ main:52250 ] - [ INFO ]  test_01_pay Start
+2019-11-09 14:43:05  [ main:56621 ] - [ INFO ]  点击By.xpath: //a[@data-id="cashier"]//div[@class="word"]
+2019-11-09 14:43:08  [ main:60062 ] - [ INFO ]  点击By.cssSelector: #shopClassify [data-type='0']:nth-of-type(2) .js-name
+2019-11-09 14:43:42  [ main:93568 ] - [ ERROR ]  元素By.xpath: //div[@id='content']/ul/li[2]/div[@class='info_area']/div[2]/div[3]/a[2]查找超时
+2019-11-09 14:43:42  [ main:94474 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 14:43:42  [ main:94475 ] - [ INFO ]  当前时间为：20191109_144342
+2019-11-09 14:43:43  [ main:94668 ] - [ INFO ]  test_01_pay Failure
+2019-11-09 14:43:44  [ main:96198 ] - [ INFO ]  failedTest = test_01_pay
+2019-11-09 14:48:00  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-09 14:48:00  [ main:30 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 14:48:00  [ main:31 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 14:48:40  [ main:39677 ] - [ INFO ]  输入18909276261
+2019-11-09 14:48:40  [ main:39978 ] - [ INFO ]  输入zk18909276261
+2019-11-09 14:48:40  [ main:40036 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 14:48:40  [ main:40045 ] - [ INFO ]  test_01_pay Start
+2019-11-09 14:48:45  [ main:44354 ] - [ INFO ]  点击By.xpath: //a[@data-id="cashier"]//div[@class="word"]
+2019-11-09 14:48:48  [ main:47544 ] - [ INFO ]  点击By.cssSelector: #shopClassify [data-type='0']:nth-of-type(2) .js-name
+2019-11-09 14:48:48  [ main:47844 ] - [ INFO ]  点击By.cssSelector: .info_area div:nth-of-type(3) [href='javascript\:void\(0\)\;']:nth-child(3)
+2019-11-09 14:48:49  [ main:48322 ] - [ INFO ]  点击By.cssSelector: .js-go-pay .word
+2019-11-09 14:49:20  [ main:79874 ] - [ ERROR ]  元素By.cssSelector: #id-left-rem查找超时
+2019-11-09 14:49:21  [ main:80818 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 14:49:21  [ main:80820 ] - [ INFO ]  当前时间为：20191109_144921
+2019-11-09 14:49:21  [ main:80888 ] - [ INFO ]  test_01_pay Failure
+2019-11-09 14:49:22  [ main:82064 ] - [ INFO ]  failedTest = test_01_pay
+2019-11-09 14:51:57  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-09 14:51:57  [ main:36 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 14:51:57  [ main:36 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 14:52:22  [ main:25052 ] - [ INFO ]  输入18909276261
+2019-11-09 14:52:23  [ main:25474 ] - [ INFO ]  输入zk18909276261
+2019-11-09 14:52:23  [ main:25534 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 14:52:23  [ main:25543 ] - [ INFO ]  test_01_pay Start
+2019-11-09 14:52:27  [ main:29898 ] - [ INFO ]  点击By.xpath: //a[@data-id="cashier"]//div[@class="word"]
+2019-11-09 14:52:31  [ main:33481 ] - [ INFO ]  点击By.cssSelector: #shopClassify [data-type='0']:nth-of-type(2) .js-name
+2019-11-09 14:52:34  [ main:36719 ] - [ INFO ]  点击By.cssSelector: .info_area div:nth-of-type(3) [href='javascript\:void\(0\)\;']:nth-child(3)
+2019-11-09 14:52:35  [ main:37259 ] - [ INFO ]  点击By.cssSelector: .js-go-pay .word
+2019-11-09 14:52:35  [ main:37616 ] - [ INFO ]  点击By.cssSelector: #id-left-rem
+2019-11-09 14:52:35  [ main:37661 ] - [ INFO ]  点击By.cssSelector: .layui-layer-wrap .select
+2019-11-09 14:52:35  [ main:37993 ] - [ INFO ]  点击By.cssSelector: .pay_area .no-border:nth-child(13) [href]
+2019-11-09 14:52:35  [ main:38039 ] - [ INFO ]  点击By.cssSelector: [src='\/assets\/img\/blancePayIcon\.png']
+2019-11-09 14:52:35  [ main:38095 ] - [ INFO ]  点击By.cssSelector: [src='\/assets\/img\/creditPayGray\.png']
+2019-11-09 14:52:35  [ main:38147 ] - [ INFO ]  点击By.cssSelector: .cla-okwell
+2019-11-09 14:52:36  [ main:38431 ] - [ INFO ]  点击By.cssSelector: .pay_area .cla-succeed-img:nth-child(18) div:nth-child(6) .cla-btn-us
+2019-11-09 14:52:36  [ main:38970 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 14:52:36  [ main:38971 ] - [ INFO ]  当前时间为：20191109_145236
+2019-11-09 14:52:36  [ main:39030 ] - [ INFO ]  test_01_pay Failure
+2019-11-09 14:52:37  [ main:40106 ] - [ INFO ]  failedTest = test_01_pay
+2019-11-09 14:57:18  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-09 14:57:18  [ main:5 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 14:57:18  [ main:6 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 14:57:40  [ main:21874 ] - [ INFO ]  输入18909276261
+2019-11-09 14:57:40  [ main:22183 ] - [ INFO ]  输入zk18909276261
+2019-11-09 14:57:40  [ main:22253 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 14:57:40  [ main:22262 ] - [ INFO ]  test_01_pay Start
+2019-11-09 14:57:45  [ main:26544 ] - [ INFO ]  点击By.xpath: //a[@data-id="cashier"]//div[@class="word"]
+2019-11-09 14:57:48  [ main:30436 ] - [ INFO ]  点击By.cssSelector: #shopClassify [data-type='0']:nth-of-type(2) .js-name
+2019-11-09 14:57:49  [ main:31242 ] - [ INFO ]  点击By.cssSelector: .info_area div:nth-of-type(3) [href='javascript\:void\(0\)\;']:nth-child(3)
+2019-11-09 14:57:49  [ main:31292 ] - [ INFO ]  点击By.cssSelector: .js-go-pay .word
+2019-11-09 14:58:21  [ main:62885 ] - [ ERROR ]  元素By.cssSelector: #id-left-rem查找超时
+2019-11-09 14:58:22  [ main:63670 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 14:58:22  [ main:63671 ] - [ INFO ]  当前时间为：20191109_145822
+2019-11-09 14:58:22  [ main:63726 ] - [ INFO ]  test_01_pay Failure
+2019-11-09 14:58:23  [ main:64854 ] - [ INFO ]  failedTest = test_01_pay
+2019-11-09 15:00:05  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-09 15:00:05  [ main:29 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 15:00:05  [ main:29 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 15:00:28  [ main:22755 ] - [ INFO ]  输入18909276261
+2019-11-09 15:00:29  [ main:23080 ] - [ INFO ]  输入zk18909276261
+2019-11-09 15:00:29  [ main:23132 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 15:00:29  [ main:23140 ] - [ INFO ]  test_01_pay Start
+2019-11-09 15:00:33  [ main:27426 ] - [ INFO ]  点击By.xpath: //a[@data-id="cashier"]//div[@class="word"]
+2019-11-09 15:00:37  [ main:31551 ] - [ INFO ]  点击By.cssSelector: #shopClassify [data-type='0']:nth-of-type(2) .js-name
+2019-11-09 15:00:37  [ main:31904 ] - [ INFO ]  点击By.cssSelector: .info_area div:nth-of-type(3) [href='javascript\:void\(0\)\;']:nth-child(3)
+2019-11-09 15:00:38  [ main:32452 ] - [ INFO ]  点击By.cssSelector: .js-go-pay .word
+2019-11-09 15:00:38  [ main:32769 ] - [ INFO ]  点击By.cssSelector: #id-left-rem
+2019-11-09 15:00:38  [ main:32825 ] - [ INFO ]  点击By.cssSelector: .layui-layer-wrap .select
+2019-11-09 15:00:39  [ main:33142 ] - [ INFO ]  点击By.cssSelector: .pay_area .no-border:nth-child(13) [href]
+2019-11-09 15:00:39  [ main:33187 ] - [ INFO ]  点击By.cssSelector: [src='\/assets\/img\/blancePayIcon\.png']
+2019-11-09 15:00:39  [ main:33219 ] - [ INFO ]  点击By.cssSelector: [src='\/assets\/img\/creditPayGray\.png']
+2019-11-09 15:00:39  [ main:33263 ] - [ INFO ]  点击By.cssSelector: .cla-okwell
+2019-11-09 15:00:39  [ main:33407 ] - [ INFO ]  点击By.cssSelector: .pay_area .cla-succeed-img:nth-child(18) div:nth-child(6) .cla-btn-us
+2019-11-09 15:00:39  [ main:33949 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 15:00:39  [ main:33950 ] - [ INFO ]  当前时间为：20191109_150039
+2019-11-09 15:00:39  [ main:33968 ] - [ INFO ]  test_01_pay Failure
+2019-11-09 15:00:40  [ main:35004 ] - [ INFO ]  failedTest = test_01_pay
+2019-11-09 15:06:13  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-09 15:06:13  [ main:7 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 15:06:13  [ main:8 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 15:06:35  [ main:22775 ] - [ INFO ]  输入18909276261
+2019-11-09 15:06:36  [ main:23132 ] - [ INFO ]  输入zk18909276261
+2019-11-09 15:06:36  [ main:23177 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 15:06:36  [ main:23186 ] - [ INFO ]  test_01_pay Start
+2019-11-09 15:06:42  [ main:29671 ] - [ INFO ]  点击By.xpath: //a[@data-id="cashier"]//div[@class="word"]
+2019-11-09 15:06:52  [ main:38994 ] - [ INFO ]  点击By.cssSelector: #shopClassify [data-type='0']:nth-of-type(2) .js-name
+2019-11-09 15:06:53  [ main:40000 ] - [ INFO ]  点击By.cssSelector: .info_area div:nth-of-type(3) [href='javascript\:void\(0\)\;']:nth-child(3)
+2019-11-09 15:06:53  [ main:40060 ] - [ INFO ]  点击By.cssSelector: .js-go-pay .word
+2019-11-09 15:07:24  [ main:71688 ] - [ ERROR ]  元素By.cssSelector: #id-left-rem查找超时
+2019-11-09 15:07:26  [ main:73412 ] - [ INFO ]  failedTest = test_01_pay
+2019-11-09 15:07:36  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-09 15:07:36  [ main:28 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 15:07:36  [ main:28 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 15:07:59  [ main:23097 ] - [ INFO ]  输入18909276261
+2019-11-09 15:07:59  [ main:23475 ] - [ INFO ]  输入zk18909276261
+2019-11-09 15:07:59  [ main:23543 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 15:07:59  [ main:23552 ] - [ INFO ]  test_01_pay Start
+2019-11-09 15:08:03  [ main:27885 ] - [ INFO ]  点击By.xpath: //a[@data-id="cashier"]//div[@class="word"]
+2019-11-09 15:08:07  [ main:30924 ] - [ INFO ]  点击By.cssSelector: #shopClassify [data-type='0']:nth-of-type(2) .js-name
+2019-11-09 15:08:07  [ main:31191 ] - [ INFO ]  点击By.cssSelector: .info_area div:nth-of-type(3) [href='javascript\:void\(0\)\;']:nth-child(3)
+2019-11-09 15:08:07  [ main:31633 ] - [ INFO ]  点击By.cssSelector: .js-go-pay .word
+2019-11-09 15:08:08  [ main:31990 ] - [ INFO ]  点击By.cssSelector: #id-left-rem
+2019-11-09 15:08:08  [ main:32038 ] - [ INFO ]  点击By.cssSelector: .layui-layer-wrap .select
+2019-11-09 15:08:08  [ main:32481 ] - [ INFO ]  点击By.cssSelector: .pay_area .no-border:nth-child(13) [href]
+2019-11-09 15:08:08  [ main:32518 ] - [ INFO ]  点击By.cssSelector: [src='\/assets\/img\/blancePayIcon\.png']
+2019-11-09 15:08:08  [ main:32553 ] - [ INFO ]  点击By.cssSelector: [src='\/assets\/img\/creditPayGray\.png']
+2019-11-09 15:08:08  [ main:32597 ] - [ INFO ]  点击By.cssSelector: .cla-okwell
+2019-11-09 15:08:09  [ main:33810 ] - [ INFO ]  点击By.cssSelector: .pay_area .cla-succeed-img:nth-child(18) div:nth-child(6) .cla-btn-us
+2019-11-09 15:08:10  [ main:34599 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 15:08:10  [ main:34601 ] - [ INFO ]  当前时间为：20191109_150810
+2019-11-09 15:08:10  [ main:34655 ] - [ INFO ]  test_01_pay Failure
+2019-11-09 15:08:11  [ main:35899 ] - [ INFO ]  failedTest = test_01_pay
+2019-11-09 15:11:50  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-09 15:11:50  [ main:31 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 15:11:50  [ main:32 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 15:12:14  [ main:24054 ] - [ INFO ]  输入18909276261
+2019-11-09 15:12:14  [ main:24368 ] - [ INFO ]  输入zk18909276261
+2019-11-09 15:12:14  [ main:24429 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 15:12:14  [ main:24436 ] - [ INFO ]  test_01_pay Start
+2019-11-09 15:12:19  [ main:28713 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 15:12:22  [ main:31892 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 15:12:23  [ main:32685 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 15:12:23  [ main:32718 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 15:12:23  [ main:33457 ] - [ INFO ]  输入猫粮
+2019-11-09 15:12:23  [ main:33494 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 15:12:25  [ main:34802 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 15:12:25  [ main:34862 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 15:12:25  [ main:34902 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 15:12:25  [ main:35233 ] - [ INFO ]  输入100
+2019-11-09 15:12:25  [ main:35281 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 15:12:25  [ main:35334 ] - [ INFO ]  点击By.xpath: //a[@data-id="member"]//div[@class="word"]
+2019-11-09 15:12:30  [ main:40419 ] - [ INFO ]  点击By.xpath: //a[contains(text(),'新增会员')]
+2019-11-09 15:12:30  [ main:40590 ] - [ INFO ]  输入肖强
+2019-11-09 15:12:31  [ main:40847 ] - [ INFO ]  输入18909876543
+2019-11-09 15:12:31  [ main:40982 ] - [ INFO ]  输入kk
+2019-11-09 15:12:31  [ main:41307 ] - [ INFO ]  点击By.xpath: //snail-members/div[2]/div/div/div[3]/div[2]
+2019-11-09 15:12:31  [ main:41411 ] - [ INFO ]  点击By.xpath: //a[@data-id="cashier"]//div[@class="word"]
+2019-11-09 15:12:35  [ main:45064 ] - [ INFO ]  点击By.cssSelector: #shopClassify [data-type='0']:nth-of-type(2) .js-name
+2019-11-09 15:12:35  [ main:45311 ] - [ INFO ]  点击By.cssSelector: .info_area div:nth-of-type(3) [href='javascript\:void\(0\)\;']:nth-child(3)
+2019-11-09 15:12:35  [ main:45356 ] - [ INFO ]  点击By.cssSelector: .js-go-pay .word
+2019-11-09 15:13:07  [ main:76713 ] - [ ERROR ]  元素By.cssSelector: #id-left-rem查找超时
+2019-11-09 15:13:08  [ main:77878 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 15:13:08  [ main:77880 ] - [ INFO ]  当前时间为：20191109_151308
+2019-11-09 15:13:08  [ main:78057 ] - [ INFO ]  test_01_pay Failure
+2019-11-09 15:13:08  [ main:78469 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 15:13:08  [ main:78577 ] - [ INFO ]  点击By.xpath: /html//input[@id='all_1']
+2019-11-09 15:13:11  [ main:81613 ] - [ INFO ]  点击By.xpath: /html/body/app-root/div/ng-component/div/div/snail-product-stock/div[1]/div[4]
+2019-11-09 15:13:11  [ main:81683 ] - [ INFO ]  点击By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]/div[1]/ul/li[6]
+2019-11-09 15:13:12  [ main:81728 ] - [ INFO ]  点击By.xpath: //div[text()="修改"]
+2019-11-09 15:13:13  [ main:83098 ] - [ INFO ]  failedTest = test_01_pay
+2019-11-09 15:14:50  [ main:1 ] - [ INFO ]  retrycount=0
+2019-11-09 15:14:50  [ main:36 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 15:14:50  [ main:37 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 15:15:23  [ main:33858 ] - [ INFO ]  输入18909276261
+2019-11-09 15:15:24  [ main:34211 ] - [ INFO ]  输入zk18909276261
+2019-11-09 15:15:24  [ main:34259 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 15:15:24  [ main:34267 ] - [ INFO ]  test_01_pay Start
+2019-11-09 15:15:28  [ main:38596 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 15:15:31  [ main:41215 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 15:15:32  [ main:41971 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 15:15:32  [ main:42016 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 15:15:32  [ main:42366 ] - [ INFO ]  输入猫粮
+2019-11-09 15:15:32  [ main:42400 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 15:15:33  [ main:43573 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 15:15:33  [ main:43639 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 15:15:33  [ main:43685 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 15:15:34  [ main:44060 ] - [ INFO ]  输入100
+2019-11-09 15:15:34  [ main:44117 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 15:16:05  [ main:75525 ] - [ ERROR ]  元素By.cssSelector: .js-check-box tr:nth-of-type(2) td:nth-of-type(8) .ori-text:nth-of-type(1)查找超时
+2019-11-09 15:16:06  [ main:76281 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 15:16:06  [ main:76282 ] - [ INFO ]  当前时间为：20191109_151606
+2019-11-09 15:16:06  [ main:76361 ] - [ INFO ]  test_01_pay Failure
+2019-11-09 15:16:06  [ main:76533 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 15:16:06  [ main:76618 ] - [ INFO ]  点击By.xpath: /html//input[@id='all_1']
+2019-11-09 15:16:09  [ main:79672 ] - [ INFO ]  点击By.xpath: /html/body/app-root/div/ng-component/div/div/snail-product-stock/div[1]/div[4]
+2019-11-09 15:16:09  [ main:79753 ] - [ INFO ]  点击By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]/div[1]/ul/li[6]
+2019-11-09 15:16:09  [ main:79833 ] - [ INFO ]  点击By.xpath: //div[text()="修改"]
+2019-11-09 15:16:11  [ main:81073 ] - [ INFO ]  failedTest = test_01_pay
+2019-11-09 15:18:17  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-09 15:18:17  [ main:51 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 15:18:17  [ main:52 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 15:18:41  [ main:23959 ] - [ INFO ]  输入18909276261
+2019-11-09 15:18:41  [ main:24289 ] - [ INFO ]  输入zk18909276261
+2019-11-09 15:18:41  [ main:24347 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 15:18:41  [ main:24355 ] - [ INFO ]  test_01_pay Start
+2019-11-09 15:18:46  [ main:28642 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 15:18:48  [ main:31460 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 15:18:49  [ main:31689 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 15:18:49  [ main:31752 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 15:18:49  [ main:32135 ] - [ INFO ]  输入猫粮
+2019-11-09 15:18:49  [ main:32168 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 15:18:50  [ main:33419 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 15:18:50  [ main:33482 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 15:18:50  [ main:33565 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 15:18:51  [ main:33928 ] - [ INFO ]  输入100
+2019-11-09 15:18:51  [ main:33988 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 15:18:51  [ main:34074 ] - [ INFO ]  点击By.cssSelector: .js-check-box td:nth-of-type(8) .ori-text:nth-of-type(1)
+2019-11-09 15:18:52  [ main:34771 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 15:18:52  [ main:34772 ] - [ INFO ]  当前时间为：20191109_151852
+2019-11-09 15:18:52  [ main:34805 ] - [ INFO ]  test_01_pay Failure
+2019-11-09 15:18:52  [ main:34897 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 15:18:52  [ main:34966 ] - [ INFO ]  点击By.xpath: /html//input[@id='all_1']
+2019-11-09 15:18:55  [ main:38047 ] - [ INFO ]  点击By.xpath: /html/body/app-root/div/ng-component/div/div/snail-product-stock/div[1]/div[4]
+2019-11-09 15:18:55  [ main:38114 ] - [ INFO ]  点击By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]/div[1]/ul/li[6]
+2019-11-09 15:18:55  [ main:38159 ] - [ INFO ]  点击By.xpath: //div[text()="修改"]
+2019-11-09 15:18:56  [ main:39200 ] - [ INFO ]  failedTest = test_01_pay
+2019-11-09 15:25:06  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-09 15:25:06  [ main:7 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 15:25:06  [ main:7 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 15:25:36  [ main:29893 ] - [ INFO ]  输入18909276261
+2019-11-09 15:25:37  [ main:30176 ] - [ INFO ]  输入zk18909276261
+2019-11-09 15:25:37  [ main:30231 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 15:25:37  [ main:30239 ] - [ INFO ]  test_01_pay Start
+2019-11-09 15:25:41  [ main:34746 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 15:25:44  [ main:37381 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 15:25:44  [ main:37891 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 15:25:44  [ main:37929 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 15:25:45  [ main:38297 ] - [ INFO ]  输入猫粮
+2019-11-09 15:25:45  [ main:38377 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 15:25:46  [ main:39694 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 15:25:46  [ main:39746 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 15:25:46  [ main:39799 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 15:25:46  [ main:40134 ] - [ INFO ]  输入100
+2019-11-09 15:25:47  [ main:40180 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 15:25:47  [ main:40270 ] - [ INFO ]  点击By.xpath: //a[@data-id="member"]//div[@class="word"]
+2019-11-09 15:25:52  [ main:45639 ] - [ INFO ]  点击By.xpath: //a[contains(text(),'新增会员')]
+2019-11-09 15:25:52  [ main:45840 ] - [ INFO ]  输入肖强
+2019-11-09 15:25:53  [ main:46172 ] - [ INFO ]  输入18909876543
+2019-11-09 15:25:53  [ main:46359 ] - [ INFO ]  输入kk
+2019-11-09 15:25:53  [ main:46710 ] - [ INFO ]  点击By.xpath: //snail-members/div[2]/div/div/div[3]/div[2]
+2019-11-09 15:25:53  [ main:46879 ] - [ INFO ]  点击By.xpath: //a[@data-id="cashier"]//div[@class="word"]
+2019-11-09 15:25:57  [ main:50191 ] - [ INFO ]  点击By.cssSelector: #shopClassify [data-type='0']:nth-of-type(2) .js-name
+2019-11-09 15:25:57  [ main:50665 ] - [ INFO ]  点击By.cssSelector: .info_area div:nth-of-type(3) [href='javascript\:void\(0\)\;']:nth-child(3)
+2019-11-09 15:26:28  [ main:81998 ] - [ ERROR ]  元素By.cssSelector: .layui-layer-content .red_btn查找超时
+2019-11-09 15:26:29  [ main:82739 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 15:26:29  [ main:82741 ] - [ INFO ]  当前时间为：20191109_152629
+2019-11-09 15:26:29  [ main:82850 ] - [ INFO ]  test_01_pay Failure
+2019-11-09 15:26:30  [ main:83245 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 15:26:30  [ main:83362 ] - [ INFO ]  点击By.xpath: /html//input[@id='all_1']
+2019-11-09 15:26:33  [ main:86415 ] - [ INFO ]  点击By.xpath: /html/body/app-root/div/ng-component/div/div/snail-product-stock/div[1]/div[4]
+2019-11-09 15:26:33  [ main:86466 ] - [ INFO ]  点击By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]/div[1]/ul/li[6]
+2019-11-09 15:26:33  [ main:86518 ] - [ INFO ]  点击By.xpath: //div[text()="修改"]
+2019-11-09 15:26:34  [ main:87912 ] - [ INFO ]  failedTest = test_01_pay
+2019-11-09 15:28:21  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-09 15:28:21  [ main:7 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 15:28:21  [ main:7 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 15:28:43  [ main:22000 ] - [ INFO ]  输入18909276261
+2019-11-09 15:28:43  [ main:22296 ] - [ INFO ]  输入zk18909276261
+2019-11-09 15:28:43  [ main:22350 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 15:28:43  [ main:22360 ] - [ INFO ]  test_01_pay Start
+2019-11-09 15:28:47  [ main:26703 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 15:28:50  [ main:29461 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 15:28:50  [ main:29719 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 15:28:51  [ main:29767 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 15:28:51  [ main:30180 ] - [ INFO ]  输入猫粮
+2019-11-09 15:28:51  [ main:30219 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 15:28:52  [ main:31394 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 15:28:52  [ main:31461 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 15:28:52  [ main:31515 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 15:28:53  [ main:31817 ] - [ INFO ]  输入100
+2019-11-09 15:28:53  [ main:31872 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 15:28:53  [ main:31975 ] - [ INFO ]  点击By.xpath: //a[@data-id="member"]//div[@class="word"]
+2019-11-09 15:28:58  [ main:36986 ] - [ INFO ]  点击By.xpath: //a[contains(text(),'新增会员')]
+2019-11-09 15:28:58  [ main:37188 ] - [ INFO ]  输入肖强
+2019-11-09 15:28:58  [ main:37589 ] - [ INFO ]  输入18909876543
+2019-11-09 15:28:58  [ main:37727 ] - [ INFO ]  输入kk
+2019-11-09 15:28:59  [ main:38305 ] - [ INFO ]  点击By.xpath: //snail-members/div[2]/div/div/div[3]/div[2]
+2019-11-09 15:28:59  [ main:38379 ] - [ INFO ]  点击By.xpath: //a[@data-id="cashier"]//div[@class="word"]
+2019-11-09 15:29:02  [ main:41380 ] - [ INFO ]  点击By.cssSelector: #shopClassify [data-type='0']:nth-of-type(2) .js-name
+2019-11-09 15:29:03  [ main:41858 ] - [ INFO ]  点击By.cssSelector: .info_area div:nth-of-type(3) [href='javascript\:void\(0\)\;']:nth-child(3)
+2019-11-09 15:29:03  [ main:41923 ] - [ INFO ]  点击By.cssSelector: .layui-layer-content .red_btn
+2019-11-09 15:29:03  [ main:41979 ] - [ INFO ]  点击By.cssSelector: .js-go-pay .word
+2019-11-09 15:29:34  [ main:73383 ] - [ ERROR ]  元素By.cssSelector: #id-left-rem查找超时
+2019-11-09 15:29:35  [ main:74149 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 15:29:35  [ main:74150 ] - [ INFO ]  当前时间为：20191109_152935
+2019-11-09 15:29:35  [ main:74272 ] - [ INFO ]  test_01_pay Failure
+2019-11-09 15:29:35  [ main:74554 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 15:29:36  [ main:74802 ] - [ INFO ]  点击By.xpath: /html//input[@id='all_1']
+2019-11-09 15:29:39  [ main:77864 ] - [ INFO ]  点击By.xpath: /html/body/app-root/div/ng-component/div/div/snail-product-stock/div[1]/div[4]
+2019-11-09 15:29:39  [ main:77925 ] - [ INFO ]  点击By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]/div[1]/ul/li[6]
+2019-11-09 15:29:39  [ main:77968 ] - [ INFO ]  点击By.xpath: //div[text()="修改"]
+2019-11-09 15:29:40  [ main:79199 ] - [ INFO ]  failedTest = test_01_pay
+2019-11-09 15:31:04  [ main:0 ] - [ INFO ]  retrycount=1
+2019-11-09 15:31:04  [ main:22 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 15:31:04  [ main:23 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 15:31:34  [ main:30471 ] - [ INFO ]  输入18909276261
+2019-11-09 15:31:34  [ main:30839 ] - [ INFO ]  输入zk18909276261
+2019-11-09 15:31:34  [ main:30896 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 15:31:34  [ main:30907 ] - [ INFO ]  test_01_pay Start
+2019-11-09 15:31:39  [ main:35228 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 15:31:41  [ main:37728 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 15:31:41  [ main:37950 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 15:31:42  [ main:37995 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 15:31:42  [ main:38379 ] - [ INFO ]  输入猫粮
+2019-11-09 15:31:42  [ main:38411 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 15:31:43  [ main:39558 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 15:31:43  [ main:39605 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 15:31:43  [ main:39649 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 15:31:44  [ main:39976 ] - [ INFO ]  输入100
+2019-11-09 15:31:44  [ main:40022 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 15:31:44  [ main:40154 ] - [ INFO ]  点击By.xpath: //a[@data-id="member"]//div[@class="word"]
+2019-11-09 15:31:49  [ main:45054 ] - [ INFO ]  点击By.xpath: //a[contains(text(),'新增会员')]
+2019-11-09 15:31:49  [ main:45215 ] - [ INFO ]  输入肖强
+2019-11-09 15:31:49  [ main:45482 ] - [ INFO ]  输入18909876543
+2019-11-09 15:31:49  [ main:45613 ] - [ INFO ]  输入kk
+2019-11-09 15:31:50  [ main:46255 ] - [ INFO ]  点击By.xpath: //snail-members/div[2]/div/div/div[3]/div[2]
+2019-11-09 15:31:50  [ main:46334 ] - [ INFO ]  点击By.xpath: //a[@data-id="cashier"]//div[@class="word"]
+2019-11-09 15:31:54  [ main:50057 ] - [ INFO ]  点击By.cssSelector: #shopClassify [data-type='0']:nth-of-type(2) .js-name
+2019-11-09 15:31:54  [ main:50390 ] - [ INFO ]  点击By.cssSelector: .info_area div:nth-of-type(3) [href='javascript\:void\(0\)\;']:nth-child(3)
+2019-11-09 15:31:54  [ main:50467 ] - [ INFO ]  点击By.cssSelector: .layui-layer-content .red_btn
+2019-11-09 15:31:54  [ main:50506 ] - [ INFO ]  点击By.cssSelector: .js-go-pay .word
+2019-11-09 15:32:26  [ main:81996 ] - [ ERROR ]  元素By.cssSelector: #id-left-rem查找超时
+2019-11-09 15:32:26  [ main:82050 ] - [ INFO ]  Retry for [test_01_pay] on class [com.zhangkai.testCase.Testcash] Retry 1 times
+2019-11-09 15:32:26  [ main:82051 ] - [ INFO ]  test_01_pay Skipped
+2019-11-09 15:32:26  [ main:82052 ] - [ INFO ]  test_01_pay Start
+2019-11-09 15:32:26  [ main:82581 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 15:32:26  [ main:82629 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 15:32:26  [ main:82758 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 15:32:26  [ main:82802 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 15:32:27  [ main:83262 ] - [ INFO ]  输入猫粮
+2019-11-09 15:32:27  [ main:83312 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 15:32:28  [ main:84449 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 15:32:28  [ main:84484 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 15:32:28  [ main:84518 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 15:32:28  [ main:84862 ] - [ INFO ]  输入100
+2019-11-09 15:32:28  [ main:84917 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 15:32:29  [ main:85313 ] - [ INFO ]  点击By.xpath: //a[@data-id="member"]//div[@class="word"]
+2019-11-09 15:32:29  [ main:85464 ] - [ INFO ]  点击By.xpath: //a[contains(text(),'新增会员')]
+2019-11-09 15:32:29  [ main:85605 ] - [ INFO ]  输入肖强
+2019-11-09 15:32:29  [ main:85880 ] - [ INFO ]  输入18909876543
+2019-11-09 15:32:30  [ main:86000 ] - [ INFO ]  输入kk
+2019-11-09 15:32:30  [ main:86088 ] - [ INFO ]  点击By.xpath: //snail-members/div[2]/div/div/div[3]/div[2]
+2019-11-09 15:32:30  [ main:86201 ] - [ INFO ]  点击By.xpath: //a[@data-id="cashier"]//div[@class="word"]
+2019-11-09 15:32:31  [ main:87254 ] - [ INFO ]  点击By.cssSelector: #shopClassify [data-type='0']:nth-of-type(2) .js-name
+2019-11-09 15:32:31  [ main:87512 ] - [ INFO ]  点击By.cssSelector: .info_area div:nth-of-type(3) [href='javascript\:void\(0\)\;']:nth-child(3)
+2019-11-09 15:33:02  [ main:118612 ] - [ ERROR ]  元素By.cssSelector: .layui-layer-content .red_btn查找超时
+2019-11-09 15:33:03  [ main:119394 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 15:33:03  [ main:119395 ] - [ INFO ]  当前时间为：20191109_153303
+2019-11-09 15:33:03  [ main:119471 ] - [ INFO ]  test_01_pay Failure
+2019-11-09 15:33:03  [ main:119829 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 15:33:03  [ main:119899 ] - [ INFO ]  点击By.xpath: /html//input[@id='all_1']
+2019-11-09 15:33:07  [ main:122954 ] - [ INFO ]  点击By.xpath: /html/body/app-root/div/ng-component/div/div/snail-product-stock/div[1]/div[4]
+2019-11-09 15:33:07  [ main:123004 ] - [ INFO ]  点击By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]/div[1]/ul/li[6]
+2019-11-09 15:33:07  [ main:123052 ] - [ INFO ]  点击By.xpath: //div[text()="修改"]
+2019-11-09 15:33:08  [ main:124513 ] - [ INFO ]  skipTest = test_01_pay
+2019-11-09 15:33:08  [ main:124514 ] - [ INFO ]  failedTest = test_01_pay
+2019-11-09 15:33:08  [ main:124518 ] - [ INFO ]  Remove repeat Fail Test: test_01_pay
+2019-11-09 15:34:59  [ main:0 ] - [ INFO ]  retrycount=1
+2019-11-09 15:34:59  [ main:30 ] - [ INFO ]  sourceCodeDir=src
+2019-11-09 15:34:59  [ main:31 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-09 15:35:26  [ main:26790 ] - [ INFO ]  输入18909276261
+2019-11-09 15:35:26  [ main:27098 ] - [ INFO ]  输入zk18909276261
+2019-11-09 15:35:26  [ main:27164 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-09 15:35:26  [ main:27172 ] - [ INFO ]  test_01_pay Start
+2019-11-09 15:35:31  [ main:31449 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 15:35:33  [ main:34205 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 15:35:34  [ main:35237 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 15:35:34  [ main:35285 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 15:35:35  [ main:35439 ] - [ INFO ]  输入猫粮
+2019-11-09 15:35:35  [ main:35473 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 15:35:36  [ main:36650 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 15:35:36  [ main:36719 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 15:35:36  [ main:36768 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 15:35:36  [ main:37107 ] - [ INFO ]  输入100
+2019-11-09 15:35:36  [ main:37152 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 15:35:36  [ main:37206 ] - [ INFO ]  点击By.xpath: //a[@data-id="cashier"]//div[@class="word"]
+2019-11-09 15:35:40  [ main:40890 ] - [ INFO ]  点击By.cssSelector: #shopClassify [data-type='0']:nth-of-type(2) .js-name
+2019-11-09 15:35:40  [ main:41159 ] - [ INFO ]  点击By.cssSelector: .info_area div:nth-of-type(3) [href='javascript\:void\(0\)\;']:nth-child(3)
+2019-11-09 15:36:12  [ main:72482 ] - [ ERROR ]  元素By.cssSelector: .layui-layer-content .red_btn查找超时
+2019-11-09 15:36:12  [ main:72564 ] - [ INFO ]  Retry for [test_01_pay] on class [com.zhangkai.testCase.Testcash] Retry 1 times
+2019-11-09 15:36:12  [ main:72566 ] - [ INFO ]  test_01_pay Skipped
+2019-11-09 15:36:12  [ main:72568 ] - [ INFO ]  test_01_pay Start
+2019-11-09 15:36:12  [ main:72954 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 15:36:12  [ main:73049 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-09 15:36:12  [ main:73148 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-09 15:36:12  [ main:73204 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-09 15:36:13  [ main:73595 ] - [ INFO ]  输入猫粮
+2019-11-09 15:36:13  [ main:73626 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-09 15:36:14  [ main:74795 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-09 15:36:14  [ main:74859 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-09 15:36:14  [ main:74894 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-09 15:36:14  [ main:75157 ] - [ INFO ]  输入100
+2019-11-09 15:36:14  [ main:75197 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-09 15:36:14  [ main:75332 ] - [ INFO ]  点击By.xpath: //a[@data-id="cashier"]//div[@class="word"]
+2019-11-09 15:36:16  [ main:76398 ] - [ INFO ]  点击By.cssSelector: #shopClassify [data-type='0']:nth-of-type(2) .js-name
+2019-11-09 15:36:16  [ main:76634 ] - [ INFO ]  点击By.cssSelector: .info_area div:nth-of-type(3) [href='javascript\:void\(0\)\;']:nth-child(3)
+2019-11-09 15:36:47  [ main:107748 ] - [ ERROR ]  元素By.cssSelector: .layui-layer-content .red_btn查找超时
+2019-11-09 15:36:48  [ main:108499 ] - [ INFO ]  当前时间为：20191109
+2019-11-09 15:36:48  [ main:108500 ] - [ INFO ]  当前时间为：20191109_153648
+2019-11-09 15:36:48  [ main:108577 ] - [ INFO ]  test_01_pay Failure
+2019-11-09 15:36:48  [ main:108977 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-09 15:36:48  [ main:109114 ] - [ INFO ]  点击By.xpath: /html//input[@id='all_1']
+2019-11-09 15:36:51  [ main:112176 ] - [ INFO ]  点击By.xpath: /html/body/app-root/div/ng-component/div/div/snail-product-stock/div[1]/div[4]
+2019-11-09 15:36:51  [ main:112227 ] - [ INFO ]  点击By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]/div[1]/ul/li[6]
+2019-11-09 15:36:51  [ main:112274 ] - [ INFO ]  点击By.xpath: //div[text()="修改"]
+2019-11-09 15:36:53  [ main:113617 ] - [ INFO ]  skipTest = test_01_pay
+2019-11-09 15:36:53  [ main:113617 ] - [ INFO ]  failedTest = test_01_pay
+2019-11-09 15:36:53  [ main:113618 ] - [ INFO ]  Remove repeat Fail Test: test_01_pay

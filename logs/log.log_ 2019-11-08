@@ -1,0 +1,57 @@
+2019-11-08 20:04:30  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-08 20:04:30  [ main:32 ] - [ INFO ]  sourceCodeDir=src
+2019-11-08 20:04:30  [ main:33 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-08 20:04:30  [ main:210 ] - [ INFO ]  test_01_addVIP Start
+2019-11-08 20:04:30  [ main:215 ] - [ INFO ]  test_01_addVIP Skipped
+2019-11-08 20:04:30  [ main:219 ] - [ INFO ]  skipTest = test_01_addVIP
+2019-11-08 20:12:19  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-08 20:12:19  [ main:11 ] - [ INFO ]  sourceCodeDir=src
+2019-11-08 20:12:19  [ main:11 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-08 20:12:19  [ main:124 ] - [ INFO ]  test_01_addVIP Start
+2019-11-08 20:12:19  [ main:132 ] - [ INFO ]  test_01_addVIP Skipped
+2019-11-08 20:12:19  [ main:137 ] - [ INFO ]  skipTest = test_01_addVIP
+2019-11-08 20:13:02  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-08 20:13:02  [ main:6 ] - [ INFO ]  sourceCodeDir=src
+2019-11-08 20:13:02  [ main:6 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-08 20:13:48  [ main:46363 ] - [ INFO ]  输入18909276261
+2019-11-08 20:13:49  [ main:46665 ] - [ INFO ]  输入zk18909276261
+2019-11-08 20:13:49  [ main:46713 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-08 20:13:49  [ main:46732 ] - [ INFO ]  test_01_addVIP Start
+2019-11-08 20:14:21  [ main:79170 ] - [ ERROR ]  元素By.xpath: //a[contains(text(),'新增会员')]查找超时
+2019-11-08 20:14:23  [ main:81080 ] - [ INFO ]  当前时间为：20191108
+2019-11-08 20:14:23  [ main:81084 ] - [ INFO ]  new folder successful
+2019-11-08 20:14:23  [ main:81085 ] - [ INFO ]  当前时间为：20191108_201423
+2019-11-08 20:14:24  [ main:81597 ] - [ INFO ]  test_01_addVIP Failure
+2019-11-08 20:14:25  [ main:82957 ] - [ INFO ]  failedTest = test_01_addVIP
+2019-11-08 20:16:24  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-08 20:16:24  [ main:32 ] - [ INFO ]  sourceCodeDir=src
+2019-11-08 20:16:24  [ main:34 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-08 20:16:55  [ main:31379 ] - [ INFO ]  输入18909276261
+2019-11-08 20:16:55  [ main:31717 ] - [ INFO ]  输入zk18909276261
+2019-11-08 20:16:55  [ main:31772 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-08 20:16:55  [ main:31793 ] - [ INFO ]  test_01_addVIP Start
+2019-11-08 20:17:00  [ main:36154 ] - [ INFO ]  点击By.xpath: //a[@data-id="member"]//div[@class="word"]
+2019-11-08 20:17:05  [ main:41607 ] - [ INFO ]  点击By.xpath: //a[contains(text(),'新增会员')]
+2019-11-08 20:17:05  [ main:41747 ] - [ INFO ]  输入小强
+2019-11-08 20:17:06  [ main:41965 ] - [ INFO ]  输入18909287273
+2019-11-08 20:17:06  [ main:42121 ] - [ INFO ]  输入jake
+2019-11-08 20:17:07  [ main:43620 ] - [ INFO ]  点击By.xpath: //snail-members/div[2]/div/div/div[3]/div[2]
+2019-11-08 20:17:09  [ main:45117 ] - [ INFO ]  当前时间为：20191108
+2019-11-08 20:17:09  [ main:45119 ] - [ INFO ]  当前时间为：20191108_201709
+2019-11-08 20:17:09  [ main:45476 ] - [ INFO ]  test_01_addVIP Failure
+2019-11-08 20:17:10  [ main:46583 ] - [ INFO ]  failedTest = test_01_addVIP
+2019-11-08 20:18:52  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-08 20:18:52  [ main:29 ] - [ INFO ]  sourceCodeDir=src
+2019-11-08 20:18:52  [ main:30 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-08 20:19:19  [ main:27156 ] - [ INFO ]  输入18909276261
+2019-11-08 20:19:19  [ main:27453 ] - [ INFO ]  输入zk18909276261
+2019-11-08 20:19:19  [ main:27502 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-08 20:19:19  [ main:27512 ] - [ INFO ]  test_01_addVIP Start
+2019-11-08 20:19:24  [ main:31818 ] - [ INFO ]  点击By.xpath: //a[@data-id="member"]//div[@class="word"]
+2019-11-08 20:19:29  [ main:36852 ] - [ INFO ]  点击By.xpath: //a[contains(text(),'新增会员')]
+2019-11-08 20:19:29  [ main:37066 ] - [ INFO ]  输入小强
+2019-11-08 20:19:29  [ main:37365 ] - [ INFO ]  输入18909287273
+2019-11-08 20:19:29  [ main:37535 ] - [ INFO ]  输入jake
+2019-11-08 20:19:30  [ main:37986 ] - [ INFO ]  点击By.xpath: //snail-members/div[2]/div/div/div[3]/div[2]
+2019-11-08 20:19:30  [ main:38434 ] - [ INFO ]  test_01_addVIP Success
+2019-11-08 20:19:32  [ main:39683 ] - [ INFO ]  PassedTests = test_01_addVIP

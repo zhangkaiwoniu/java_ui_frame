@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" >
+  <test name="AutomationFrame">
+    <classes>
+      <class name="com.zhangkai.testCase.TestLogin"/>
+    </classes>
+  </test> <!-- webdriver_demo -->
+  <listeners>
+          <listener class-name="com.zhangkai.testng.RetryListener"/>
+          <listener class-name="com.zhangkai.testng.TestResultListener"/>
+          <listener class-name="com.zhangkai.testng.ExtentTestNGIReporterListener"/>
+  </listeners>
+</suite> <!-- Default Suite -->
+

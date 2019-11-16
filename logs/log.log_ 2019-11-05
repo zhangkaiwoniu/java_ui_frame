@@ -1,0 +1,26 @@
+2019-11-05 20:30:31  [ main:1 ] - [ INFO ]  retrycount=0
+2019-11-05 20:30:31  [ main:76 ] - [ INFO ]  sourceCodeDir=src
+2019-11-05 20:30:31  [ main:76 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-05 20:31:21  [ main:49355 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-05 20:31:21  [ main:49966 ] - [ INFO ]  输入18909276261
+2019-11-05 20:31:22  [ main:50275 ] - [ INFO ]  输入zk18909276261
+2019-11-05 20:31:22  [ main:50404 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-05 20:31:22  [ main:50412 ] - [ INFO ]  addGoods Start
+2019-11-05 20:31:27  [ main:55527 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-05 20:31:32  [ main:60499 ] - [ INFO ]  当前时间为：20191105
+2019-11-05 20:31:32  [ main:60521 ] - [ INFO ]  new folder successful
+2019-11-05 20:31:32  [ main:60523 ] - [ INFO ]  当前时间为：20191105_203132
+2019-11-05 20:31:32  [ main:61053 ] - [ INFO ]  addGoods Failure
+2019-11-05 20:31:34  [ main:62249 ] - [ INFO ]  failedTest = addGoods
+2019-11-05 20:46:52  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-05 20:46:52  [ main:31 ] - [ INFO ]  sourceCodeDir=src
+2019-11-05 20:46:52  [ main:32 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-05 20:47:21  [ main:28514 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-05 20:47:21  [ main:28907 ] - [ INFO ]  输入18909276261
+2019-11-05 20:47:21  [ main:29194 ] - [ INFO ]  输入zk18909276261
+2019-11-05 20:47:21  [ main:29305 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-05 20:47:21  [ main:29332 ] - [ INFO ]  addGoods Start
+2019-11-05 20:47:27  [ main:34994 ] - [ INFO ]  当前时间为：20191105
+2019-11-05 20:47:27  [ main:35020 ] - [ INFO ]  当前时间为：20191105_204727
+2019-11-05 20:47:28  [ main:35530 ] - [ INFO ]  addGoods Failure
+2019-11-05 20:47:29  [ main:37164 ] - [ INFO ]  failedTest = addGoods

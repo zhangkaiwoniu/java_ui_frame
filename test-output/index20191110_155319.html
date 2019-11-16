@@ -1,0 +1,850 @@
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<meta charset='utf-8' /> 
+	<meta name='description' content='' />
+	<meta name='robots' content='noodp, noydir' />
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<meta id="timeStampFormat" name="timeStampFormat" content='MMM d, yyyy hh:mm:ss a'/>
+	
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css' />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+		<link href='http://extentreports.com/resx/dist/css/extent.css' type='text/css' rel='stylesheet' />
+	
+	<title>WebUI自动化测试报告</title>
+
+	<style type='text/css'>
+			.node.level-1  ul{ display:none;} .node.level-1.active ul{display:block;}  .card-panel.environment  th:first-child{ width:30%;}
+	</style>
+</head>
+
+	<body class='extent standard default hide-overflow '>
+		<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
+			<span><i class='material-icons'>desktop_windows</i></span>
+		</div>
+
+<nav>
+	<div class="nav-wrapper">
+		<a href="#!" class="brand-logo blue darken-3">Extent</a>
+
+		<!-- slideout menu -->
+		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
+			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
+						<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
+			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
+		</ul>
+
+		<!-- report name -->
+		<span class='report-name'>WebUI自动化测试报告</span>
+		
+		<!-- report headline -->
+		<span class='report-headline'></span>
+
+		<!-- nav-right -->
+		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
+			<li>
+                <a href='#!'>
+                    <span class='label suite-start-time blue darken-3'>Nov 10, 2019 03:54:15 PM</span>
+				</a>
+			</li>
+			<li>
+                <a href='#!'>
+                    <span class='label blue darken-3'>3.1.5</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+		<!-- container -->
+		<div class='container'>
+
+<div id='test-view' class='view'>
+				
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- test toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
+					<i class='material-icons'>warning</i> Status
+				</a>
+				<ul id='tests-toggle' class='dropdown-content'>
+											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+					<li class='divider'></li>
+					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
+				</ul>
+			</div>
+			<!-- test toggle -->
+
+			<!-- category toggle -->
+			<!-- category toggle -->
+
+			<!-- clear filters -->
+			<div class='chip transparent hide'>
+				<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>
+					<i class='material-icons'>close</i> Clear
+				</a>
+			</div>
+			<!-- clear filters -->
+
+			<!-- enable dashboard -->
+			<div id='toggle-test-view-charts' class='chip transparent'>
+				<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
+					<i class='material-icons'>track_changes</i> Dashboard
+				</a>
+			</div>
+			<!-- enable dashboard -->
+
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+					<i class='material-icons'>search</i> Search
+				</a>
+
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+				
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+
+
+<div id='test-view-charts' class='subview-full'>
+	<div id='charts-row' class='row nm-v nm-h'>
+		<div class='col s12 m6 l6 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Tests</div>
+				<div class='chart-box'>
+					<canvas id='parent-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>1</span> test(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='50%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+				</div>
+			</div>
+		</div>
+		
+		<div class='col s12 m6 l6 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Steps</div>
+				<div class='chart-box'>
+					<canvas id='child-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='33.333%'><span class='strong'>1</span> step(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='66.667%'>2</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+	<div class='subview-left left'>
+		
+		<div class='view-summary'>
+			<h5>Tests</h5>
+			<ul id='test-collection' class='test-collection'>
+				
+				
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
+					<div class='test-heading'>
+						<span class='test-name'>189092762611234567879密码错误</span>
+						<span class='test-time'>Nov 10, 2019 03:55:32 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 10, 2019 03:55:32 PM</span>
+	<span class='label end-time'>Nov 10, 2019 03:55:34 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+845ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>3:55:34 PM</td>
+					<td class='step-details'><pre>java.lang.AssertionError: 异常登录 expected [密码错误] but found [更新公告
+本次更新内容(2019-10-21)：
+【小程序】
+* 增加快速成为会员，申请成为会员可跳过资料填写
+* 定制小程序logo根据店铺logo变化
+【蜗牛小店】
+* 海报默认添加店铺独立公众号二维码，同时可支持小程序码、自定义图片
+* 支付方式新增美团、饿了么、大众点评
+* 盘点单支持导出
+* 收银小票可设置同时打印多份
+* 已发放的优惠券支持删除
+* 会员卡增加余额不足不享受折扣设置
+【其他】
+* App内增加收钱吧入网入口，自助申请最快30分钟完成入网
+* 会员成长等级、寄养直播对高级版用户免费
+本次更新内容(2019-09-26)：
+新增寄养直播功能，让门店高大上起来
+新增会员卡成长功能，消费满自动升级，鼓励会员消费
+优化：
+1、次卡收银抵扣金额将算入销售额
+2、系统消息支持店员接收（预约、库存不足、日报、小程序订单等也可发送给店员啦）
+本次更新内容(2019-09-23)：
+【定向发券】优惠券支持手动发放啦
+【会员标签】精确化管理会员，配合发券功能，可精准营销哦
+【寄养中途消费】寄养中途消费将生成订单，并且会自动短信通知顾客，每一笔消费都清清楚楚
+【批量编辑商品】电脑端支持批量编辑商品啦，会员价、积分、运费、分类、上下架等等
+【预约优化】预约完成可前往收银，自动绑定预约会员；也可一键生成护理报告
+【商品拆分】收银商品支持拆分，针对同一类商品多人员提成的复杂情况也能满足啦
+【其他若干优化】
+1、预约新增三种排序
+2、会员支持标签筛选
+3、商米支持刷脸支付
+4、套餐支持会员折扣
+5、输入框搜索调整调整，查询销售、会员、商品等搜索框，需要输入内容并点击搜索才会发起搜索
+6、小程序订单提成开关
+7、采购商城支持多规格与按重量计算运费
+本次更新内容(2019-08-19)：
+* 新增【一物一码】 商品独有条码，识别率高搜索精准，商品销售溯源更加方便
+* 【扫码收银】 支持扫小程序会员码、一物一码、条码
+* 新增【收钱吧】流水明细，资金更安全，管理更方便
+* 报表优化，去掉了店员模块，工资模块增加显示销售额
+* 预约、寄养、医疗排序优化，所有排序将按照距离当前时间最近排序
+* 提成比例权限调整，有修改提成比例权限的店员不光可修改销售时的提成―也可修改已经完成的订单提成
+本次更新内容(2019-08-05)：
+【收银】接入收钱吧收款方式
+【收银】新增套餐组合自由搭配
+【订单】新增销售单导出功能
+【会员】新增会员备用手机号
+【其他】修复2.5版本扫码等已知bug
+本次更新内容(2019-05-23)：
+1、【寄养功能优化】新增在寄养中添加消费商品，寄养结束后一同结算。新增寄养收取押金，结束后可直接抵扣费用，结余可选择方式退还；
+2、【采购商城】新增品牌商城，宠物店可直接批发品牌商品；
+3、【商品上下架】高级版也能使用商品下架功能，暂时不用的商品可以直接下架，之后可在下架商品处找回上架；
+4、【流失会员】可在消息提醒中查看店铺流失会员详情。
+本次更新内容(2019-04-17)：
+一、连锁版上线啦!
+1、《蜗牛观星》独立app祝你轻松管理分店；
+2、实时查看各个分店营销情况；
+3、会员跨门店消费；
+4、商品基础信息、药品设置共享；
+更多强大功能期待您的体验…
+二、线上线下营销做起来，销量每天涨起来。
+1、手机橱窗优化，支持一键上架所有商品
+2、满减送、限时折扣、优惠券等营销活动支持线上线下核销；
+3、营销活动指定会员卡等级；
+4、营销活动与小程序（可一键发微信群）、海报（可一键发朋友圈）、群发联动（可一键发短信），祝您一键推广；
+5、修复橱窗订单无法退款问题
+还有一大波使用教程与营销方案等您来学哦
+三、素材库/卖点小改动
+1、在素材库中发素材不再需要审核，
+2、用户可以回复评论，并实时收到消息推送
+一个发布，2W+宠物店都能看到。求资源，求活体，求供货更轻松
+四、其他小功能
+1、云仓10万商品，5分钟快速开店；
+2、优化默认分类，更完整
+3、品牌商增加经销商联系方式（洽谈中…）
+本次更新内容(2019-01-22)：
+【收银】优化：收银展示更多明细，下单成功后页面新增小程序码用户可直接扫描进入小程序
+【商品】优化：根据商品名智能匹配品牌商
+【小票】优化：小票上支持打印小程序码了
+【会员】优化：下单选择会员时，展示会员余额和其宠物
+【护理】优化：新增最近的服务类消费
+【报表-会员】优化：新增会员消费，充值，储值趋势折线图
+本次更新内容(2018-12-26)：
+优化【店员提成】：店长可对店员设定基本工资和提成比例
+订单支持多个销售
+报表——店员提成优化新界面
+本次更新内容(2018-9-19)：
+程序猿说：收银时新增【购物车】了；
+程序猿说：消息提醒有【提示音】了；
+程序猿说：【批量入库】我们做到了；
+程序猿说：会员【余额记录】更全面了；
+程序猿说：可实现商品【保质期】提醒了；
+程序猿说：可以设置单个【商品积分】了；
+程序猿说：商品信息【测滑】即可设置为【常用商品】；
+程序猿说：录入不同规格商品可一键【复制】商品信息；
+程序猿说：美容报告改名【护理报告】了，5张图，模板好看；
+CEO说：祝各位老板中秋国庆寄养爆满，货品大卖！
+本次更新内容(2018-8-11)：
+1、新增【消息提醒】，提醒小程序预约、会员生日驱虫疫苗、库存等，酷炫！
+2、小程序功能优化，手机橱窗发货增加【自取】和店家配送选项，就这么6！
+3、高级版可以新增【5】个店铺，可查询购买记录，即将过期提醒！好贴心！
+4、app端素材库新增【搜索】功能，还可以点赞！海报的字体也更好看啦！快去用！
+5、app端新增【卖点】功能，上千条产品的素材，一键转发朋友圈，恩，货更好卖！
+本次更新内容(2018-7-16)：
+【寄养优化】：现已支持一键下单/挂单；寄养可绑定寄养服务和寄养折扣，逾期设置帮助您更人性化的管理寄养天数
+【预约优化】：新增SPA预约，预约刻度更精细
+【常用商品】：收银页面新增常用商品栏，基于商品一个月的销售频率展示，可手动添加常用商品
+【库存告急】：新增/编辑商品时可设置库存不足的提醒数量
+【手机橱窗】：橱窗商品与站内商品价格可同步了，只需打开开关即可
+【云端条码】：新增商品时，如果条码与云端条码一致则会自动读取商品名/规格的信息
+【素材库优化】：转发/评论/收藏素材会实时增加蜗牛币
+【其余二十多项优化】：优化了SaaS基础功能
+本次更新内容(2018-5-7)：
+1、新增手机橱窗功能，网页版也能查看管理手机橱窗的商品及订单了
+2、新增打印寄养协议功能
+3、新增了全部商品的出入库记录；商品入库时，根据“移动加权法”自动计算平均成本
+4、赠送金额能在报表中看到了并且支持单独扣除赠送金额
+5、宠物增加“其他”分类，包含400种以上的宠物品种
+6、优化了其余二十余个项目
+本次更新内容(2018-3-15)：
+新一年蜗牛小店祝各位宠物店老板开工大吉！恭喜发财！(*╹▽╹*)
+【预约】小程序预约服务增加店主确认预约功能
+【会员】新增会员在铲屎官助手设置消费密码与独立二维码功能，会员消费更安全
+【收银】新增扫描会员独立二维码收银功能，不用再选择会员
+【积分】新增设置不同会员卡积分比例与积分兑换商品
+【商品】新增商品独立会员价开关，可设置会员价为0
+【其他】集中修复了一批问题
+本次更新内容(2018-2-6)：
+欢欢喜喜过大年，蜗牛小店换新颜，全新橱窗营销功能，只为帮你赚大钱
+【主页】重新设计主页布局，新增营销工具分类
+【营销工具】新增橱窗优惠券、橱窗限时折扣与橱窗满减送活动
+【查询销售】新增搜索商品功能
+【次卡】新增充值次卡可选择次卡过期时间与是否冻结
+【会员】新增会员等级管理，一键修改会员等级
+【登录】新增语音验证码功能。终于不用担心收不到登录验证码啦
+【会员卡】会员卡样式重新设计。酷炫的背景快去秀一秀
+【库存盘点】新增按分类添加。终于不用不断选择商品
+【商品导出】导出商品表格新增最后入库时间和最后销售时间
+【会员导入】会员批量导入模新增宠物品种
+本次更新内容(2018-1-19)：
+2018新年吉祥!感谢大家2017年一整年的陪伴与包容。
+新的一年，我们会更努力优化软件操作流程和使用体验，开发更多营销功能，帮大家赚钱，一起走过新一年的春夏秋冬。
+【退单】新增其他选项
+【欠款】新增扫码收款
+【会员】支持手机号199和166字段
+【打印】新增打印会员剩余次卡数量开关
+本次更新内容(2017-12-15)：
+历时两个月，蜗牛小店更新重大功能，开启宠物店管理新篇章。
+【医疗】医疗改版，根据执行时间推算下次疫苗,新增宠物详情，可查看宠物医疗记录
+【数据导出】设置里新增数据导出，支持导出商品和会员数据
+【短信】新增补发和根据会员名称查找功能以及状态筛选
+【签到】新增签到功能和蜗牛积分商城
+【会员】新增上传宠物照片和，会员列表显示店铺会员绑定铲屎官小程序的人数，会员详情快捷收银
+【收银】次卡充值和余额充值新增扫码收款功能，手机下单商品新增手动填写数量
+【欠款】新增会员收银时提示欠款
+【提醒】新增宠物生日提醒
+【报表】新增商品类和服务类销售统计
+【挂单】挂单列表新增挂单数目显示
+【小票】优化支付方式显示，支付方式会员余额变为余额支付寄养支持修改和编辑
+【商品管理】新增商品排序
+【预约】新增预约完成发送短信提醒功能
+【店员】新增店员使用营销工具权限、库存盘点权限
+【订单】新增订单详情显示当前订单结算后的会员余额
+【查询销售】新增销售列表显示会员名字
+【其他】其他六十余项体验优化
+以及其余50项已知功能优化
+取消
+确定]
+	at com.zhangkai.tools.MyAssert.fail(MyAssert.java:1018)
+	at com.zhangkai.tools.MyAssert.failNotEquals(MyAssert.java:520)
+	at com.zhangkai.tools.MyAssert.assertEqualsImpl(MyAssert.java:118)
+	at com.zhangkai.tools.MyAssert.assertEquals(MyAssert.java:99)
+	at com.zhangkai.tools.MyAssert.assertEquals(MyAssert.java:175)
+	at com.zhangkai.testCase.TestLogin.testWrongLogin(TestLogin.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+</pre></td>
+				</tr>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>3:57:07 PM</td>
+					<td class='step-details'>错误截图</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='F:\javawork\AutomationFrame\error\20191110\20191110_155534.jpg' width='10%' src='F:\javawork\AutomationFrame\error\20191110\20191110_155534.jpg' data-src='F:\javawork\AutomationFrame\error\20191110\20191110_155534.jpg'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>18909276261zk18909276261安全退出</span>
+						<span class='test-time'>Nov 10, 2019 03:54:15 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 10, 2019 03:54:15 PM</span>
+	<span class='label end-time'>Nov 10, 2019 03:54:22 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+267ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>3:54:22 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- subview left -->
+
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<h5 class='test-name'></h5>
+
+			<div id='step-filters' class="right">
+				<span class="blue-text" status="info" alt="info" title="info"><i class="material-icons">info_outline</i></span>
+				<span class="green-text" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></span>
+				<span class="red-text" status="fail" alt="fail" title="fail"><i class="material-icons">cancel</i></span>
+				<span class="red-text text-darken-4" status="fatal" alt="fatal" title="fatal"><i class="material-icons">cancel</i></span>
+				<span class="pink-text text-lighten-1" status="error" alt="error" title="error"><i class="material-icons">error</i></span>
+				<span class="orange-text" alt="warning" status="warning" title="warning"><i class="material-icons">warning</i></span>
+				<span class="teal-text" status="skip" alt="skip" title="skip"><i class="material-icons">redo</i></span>
+				<span status="clear" alt="Clear filters" title="Clear filters"><i class="material-icons">clear</i></span>
+			</div>
+		</div>
+	</div>
+	<!-- subview right -->
+
+</div>
+<!-- test view -->
+<!-- category view -->
+<div id='exception-view' class='view hide'>
+
+    <section id='controls'>
+        <div class='controls grey lighten-4'>
+            <!-- search -->
+            <div class='chip transparent' alt='Search Tests' title='Search Tests'>
+                <a href="#" class='search-div'>
+                    <i class='material-icons'>search</i> Search
+                </a>
+
+                <div class='input-field left hide'>
+                    <input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+                </div>
+
+            </div>
+            <!-- search -->
+        </div>
+    </section>
+
+    <div class='subview-left left'>
+
+        <div class='view-summary'>
+            <h5>Exceptions</h3>
+                <ul id='exception-collection' class='exception-collection'>
+
+                        <li class='exception displayed active'>
+                            <div class='exception-heading'>
+                                <span class='exception-name'>java.lang.AssertionError</span>
+                                <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
+                            </div>
+                            <div class='exception-content hide'>
+                                <div class='exception-tests'>
+                                    <table class='bordered table-results'>
+                                        <thead>
+                                        <tr>
+                                            <th>Timestamp</th>
+                                            <th>TestName</th>
+                                            <th>Status</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                                    <tr>
+                                                        <td>Nov 10, 2019 03:55:32 PM</td>
+                                                        <td class='linked' test-id='1'>189092762611234567879密码错误</td>
+                                                        <td><pre><pre>java.lang.AssertionError: 异常登录 expected [密码错误] but found [更新公告
+本次更新内容(2019-10-21)：
+【小程序】
+* 增加快速成为会员，申请成为会员可跳过资料填写
+* 定制小程序logo根据店铺logo变化
+【蜗牛小店】
+* 海报默认添加店铺独立公众号二维码，同时可支持小程序码、自定义图片
+* 支付方式新增美团、饿了么、大众点评
+* 盘点单支持导出
+* 收银小票可设置同时打印多份
+* 已发放的优惠券支持删除
+* 会员卡增加余额不足不享受折扣设置
+【其他】
+* App内增加收钱吧入网入口，自助申请最快30分钟完成入网
+* 会员成长等级、寄养直播对高级版用户免费
+本次更新内容(2019-09-26)：
+新增寄养直播功能，让门店高大上起来
+新增会员卡成长功能，消费满自动升级，鼓励会员消费
+优化：
+1、次卡收银抵扣金额将算入销售额
+2、系统消息支持店员接收（预约、库存不足、日报、小程序订单等也可发送给店员啦）
+本次更新内容(2019-09-23)：
+【定向发券】优惠券支持手动发放啦
+【会员标签】精确化管理会员，配合发券功能，可精准营销哦
+【寄养中途消费】寄养中途消费将生成订单，并且会自动短信通知顾客，每一笔消费都清清楚楚
+【批量编辑商品】电脑端支持批量编辑商品啦，会员价、积分、运费、分类、上下架等等
+【预约优化】预约完成可前往收银，自动绑定预约会员；也可一键生成护理报告
+【商品拆分】收银商品支持拆分，针对同一类商品多人员提成的复杂情况也能满足啦
+【其他若干优化】
+1、预约新增三种排序
+2、会员支持标签筛选
+3、商米支持刷脸支付
+4、套餐支持会员折扣
+5、输入框搜索调整调整，查询销售、会员、商品等搜索框，需要输入内容并点击搜索才会发起搜索
+6、小程序订单提成开关
+7、采购商城支持多规格与按重量计算运费
+本次更新内容(2019-08-19)：
+* 新增【一物一码】 商品独有条码，识别率高搜索精准，商品销售溯源更加方便
+* 【扫码收银】 支持扫小程序会员码、一物一码、条码
+* 新增【收钱吧】流水明细，资金更安全，管理更方便
+* 报表优化，去掉了店员模块，工资模块增加显示销售额
+* 预约、寄养、医疗排序优化，所有排序将按照距离当前时间最近排序
+* 提成比例权限调整，有修改提成比例权限的店员不光可修改销售时的提成―也可修改已经完成的订单提成
+本次更新内容(2019-08-05)：
+【收银】接入收钱吧收款方式
+【收银】新增套餐组合自由搭配
+【订单】新增销售单导出功能
+【会员】新增会员备用手机号
+【其他】修复2.5版本扫码等已知bug
+本次更新内容(2019-05-23)：
+1、【寄养功能优化】新增在寄养中添加消费商品，寄养结束后一同结算。新增寄养收取押金，结束后可直接抵扣费用，结余可选择方式退还；
+2、【采购商城】新增品牌商城，宠物店可直接批发品牌商品；
+3、【商品上下架】高级版也能使用商品下架功能，暂时不用的商品可以直接下架，之后可在下架商品处找回上架；
+4、【流失会员】可在消息提醒中查看店铺流失会员详情。
+本次更新内容(2019-04-17)：
+一、连锁版上线啦!
+1、《蜗牛观星》独立app祝你轻松管理分店；
+2、实时查看各个分店营销情况；
+3、会员跨门店消费；
+4、商品基础信息、药品设置共享；
+更多强大功能期待您的体验…
+二、线上线下营销做起来，销量每天涨起来。
+1、手机橱窗优化，支持一键上架所有商品
+2、满减送、限时折扣、优惠券等营销活动支持线上线下核销；
+3、营销活动指定会员卡等级；
+4、营销活动与小程序（可一键发微信群）、海报（可一键发朋友圈）、群发联动（可一键发短信），祝您一键推广；
+5、修复橱窗订单无法退款问题
+还有一大波使用教程与营销方案等您来学哦
+三、素材库/卖点小改动
+1、在素材库中发素材不再需要审核，
+2、用户可以回复评论，并实时收到消息推送
+一个发布，2W+宠物店都能看到。求资源，求活体，求供货更轻松
+四、其他小功能
+1、云仓10万商品，5分钟快速开店；
+2、优化默认分类，更完整
+3、品牌商增加经销商联系方式（洽谈中…）
+本次更新内容(2019-01-22)：
+【收银】优化：收银展示更多明细，下单成功后页面新增小程序码用户可直接扫描进入小程序
+【商品】优化：根据商品名智能匹配品牌商
+【小票】优化：小票上支持打印小程序码了
+【会员】优化：下单选择会员时，展示会员余额和其宠物
+【护理】优化：新增最近的服务类消费
+【报表-会员】优化：新增会员消费，充值，储值趋势折线图
+本次更新内容(2018-12-26)：
+优化【店员提成】：店长可对店员设定基本工资和提成比例
+订单支持多个销售
+报表——店员提成优化新界面
+本次更新内容(2018-9-19)：
+程序猿说：收银时新增【购物车】了；
+程序猿说：消息提醒有【提示音】了；
+程序猿说：【批量入库】我们做到了；
+程序猿说：会员【余额记录】更全面了；
+程序猿说：可实现商品【保质期】提醒了；
+程序猿说：可以设置单个【商品积分】了；
+程序猿说：商品信息【测滑】即可设置为【常用商品】；
+程序猿说：录入不同规格商品可一键【复制】商品信息；
+程序猿说：美容报告改名【护理报告】了，5张图，模板好看；
+CEO说：祝各位老板中秋国庆寄养爆满，货品大卖！
+本次更新内容(2018-8-11)：
+1、新增【消息提醒】，提醒小程序预约、会员生日驱虫疫苗、库存等，酷炫！
+2、小程序功能优化，手机橱窗发货增加【自取】和店家配送选项，就这么6！
+3、高级版可以新增【5】个店铺，可查询购买记录，即将过期提醒！好贴心！
+4、app端素材库新增【搜索】功能，还可以点赞！海报的字体也更好看啦！快去用！
+5、app端新增【卖点】功能，上千条产品的素材，一键转发朋友圈，恩，货更好卖！
+本次更新内容(2018-7-16)：
+【寄养优化】：现已支持一键下单/挂单；寄养可绑定寄养服务和寄养折扣，逾期设置帮助您更人性化的管理寄养天数
+【预约优化】：新增SPA预约，预约刻度更精细
+【常用商品】：收银页面新增常用商品栏，基于商品一个月的销售频率展示，可手动添加常用商品
+【库存告急】：新增/编辑商品时可设置库存不足的提醒数量
+【手机橱窗】：橱窗商品与站内商品价格可同步了，只需打开开关即可
+【云端条码】：新增商品时，如果条码与云端条码一致则会自动读取商品名/规格的信息
+【素材库优化】：转发/评论/收藏素材会实时增加蜗牛币
+【其余二十多项优化】：优化了SaaS基础功能
+本次更新内容(2018-5-7)：
+1、新增手机橱窗功能，网页版也能查看管理手机橱窗的商品及订单了
+2、新增打印寄养协议功能
+3、新增了全部商品的出入库记录；商品入库时，根据“移动加权法”自动计算平均成本
+4、赠送金额能在报表中看到了并且支持单独扣除赠送金额
+5、宠物增加“其他”分类，包含400种以上的宠物品种
+6、优化了其余二十余个项目
+本次更新内容(2018-3-15)：
+新一年蜗牛小店祝各位宠物店老板开工大吉！恭喜发财！(*╹▽╹*)
+【预约】小程序预约服务增加店主确认预约功能
+【会员】新增会员在铲屎官助手设置消费密码与独立二维码功能，会员消费更安全
+【收银】新增扫描会员独立二维码收银功能，不用再选择会员
+【积分】新增设置不同会员卡积分比例与积分兑换商品
+【商品】新增商品独立会员价开关，可设置会员价为0
+【其他】集中修复了一批问题
+本次更新内容(2018-2-6)：
+欢欢喜喜过大年，蜗牛小店换新颜，全新橱窗营销功能，只为帮你赚大钱
+【主页】重新设计主页布局，新增营销工具分类
+【营销工具】新增橱窗优惠券、橱窗限时折扣与橱窗满减送活动
+【查询销售】新增搜索商品功能
+【次卡】新增充值次卡可选择次卡过期时间与是否冻结
+【会员】新增会员等级管理，一键修改会员等级
+【登录】新增语音验证码功能。终于不用担心收不到登录验证码啦
+【会员卡】会员卡样式重新设计。酷炫的背景快去秀一秀
+【库存盘点】新增按分类添加。终于不用不断选择商品
+【商品导出】导出商品表格新增最后入库时间和最后销售时间
+【会员导入】会员批量导入模新增宠物品种
+本次更新内容(2018-1-19)：
+2018新年吉祥!感谢大家2017年一整年的陪伴与包容。
+新的一年，我们会更努力优化软件操作流程和使用体验，开发更多营销功能，帮大家赚钱，一起走过新一年的春夏秋冬。
+【退单】新增其他选项
+【欠款】新增扫码收款
+【会员】支持手机号199和166字段
+【打印】新增打印会员剩余次卡数量开关
+本次更新内容(2017-12-15)：
+历时两个月，蜗牛小店更新重大功能，开启宠物店管理新篇章。
+【医疗】医疗改版，根据执行时间推算下次疫苗,新增宠物详情，可查看宠物医疗记录
+【数据导出】设置里新增数据导出，支持导出商品和会员数据
+【短信】新增补发和根据会员名称查找功能以及状态筛选
+【签到】新增签到功能和蜗牛积分商城
+【会员】新增上传宠物照片和，会员列表显示店铺会员绑定铲屎官小程序的人数，会员详情快捷收银
+【收银】次卡充值和余额充值新增扫码收款功能，手机下单商品新增手动填写数量
+【欠款】新增会员收银时提示欠款
+【提醒】新增宠物生日提醒
+【报表】新增商品类和服务类销售统计
+【挂单】挂单列表新增挂单数目显示
+【小票】优化支付方式显示，支付方式会员余额变为余额支付寄养支持修改和编辑
+【商品管理】新增商品排序
+【预约】新增预约完成发送短信提醒功能
+【店员】新增店员使用营销工具权限、库存盘点权限
+【订单】新增订单详情显示当前订单结算后的会员余额
+【查询销售】新增销售列表显示会员名字
+【其他】其他六十余项体验优化
+以及其余50项已知功能优化
+取消
+确定]
+	at com.zhangkai.tools.MyAssert.fail(MyAssert.java:1018)
+	at com.zhangkai.tools.MyAssert.failNotEquals(MyAssert.java:520)
+	at com.zhangkai.tools.MyAssert.assertEqualsImpl(MyAssert.java:118)
+	at com.zhangkai.tools.MyAssert.assertEquals(MyAssert.java:99)
+	at com.zhangkai.tools.MyAssert.assertEquals(MyAssert.java:175)
+	at com.zhangkai.testCase.TestLogin.testWrongLogin(TestLogin.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+</pre></pre></td>
+                                                    </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                </ul>
+        </div>
+    </div>
+
+    <div class='subview-right left'>
+        <div class='view-summary'>
+            <h5 class='exception-name'></h5>
+        </div>
+    </div>
+</div>
+<!-- exception view -->
+<div id='dashboard-view' class='view hide'>
+	<div class='card-panel transparent np-v'>
+		<h5>Dashboard</h5>
+
+		<div class='row'>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Tests
+					<div class='panel-lead'>2</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Steps
+					<div class='panel-lead'>3</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Start
+					<div class='panel-lead'>Nov 10, 2019 03:54:15 PM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+			 		End
+			 		<div class='panel-lead'>Nov 10, 2019 03:57:07 PM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Time Taken
+					<div class='panel-lead'>0h 2m 51s+806ms</div>
+				</div>
+			</div>
+			<div class='col s4'>
+				<div class='card-panel dashboard-environment'>
+					<span class='right label cyan white-text'>Environment</span><p>&nbsp;</p>
+					
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Value</th>
+						</tr>
+							<tr>
+								<td>os.name</td>
+								<td>Windows 10</td>
+							</tr>
+							<tr>
+								<td>os.arch</td>
+								<td>amd64</td>
+							</tr>
+							<tr>
+								<td>os.version</td>
+								<td>10.0</td>
+							</tr>
+							<tr>
+								<td>java.version</td>
+								<td>1.8.0_201</td>
+							</tr>
+							<tr>
+								<td>java.home</td>
+								<td>D:\JAVA\jre</td>
+							</tr>
+							<tr>
+								<td>user.name</td>
+								<td>ZhangKai</td>
+							</tr>
+							<tr>
+								<td>user.dir</td>
+								<td>F:\javawork\AutomationFrame</td>
+							</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- dashboard view -->
+<!-- testrunner-logs view -->
+		</div>
+		<!-- container -->
+
+		<script>
+			var statusGroup = {
+				passParent: 1,
+				failParent: 1,
+				fatalParent: 0,
+				errorParent: 0,
+				warningParent: 0,
+				skipParent: 0,
+				exceptionsParent: 1,
+				
+				passChild: 1,
+				failChild: 2,
+				fatalChild: 0,
+				errorChild: 0,
+				warningChild: 0,
+				skipChild: 0,
+				infoChild: 0,
+				exceptionsChild: 2,
+				
+				passGrandChild: 0,
+				failGrandChild: 0,
+				fatalGrandChild: 0,
+				errorGrandChild: 0,
+				warningGrandChild: 0,
+				skipGrandChild: 0,
+				infoGrandChild: 0,
+				exceptionsGrandChild: 0,
+			};
+		</script>
+		
+			<script src='http://extentreports.com/resx/dist/js/extent.js' type='text/javascript'></script>
+		
+		
+ 		<script type='text/javascript'>
+	 			$(window).off("keydown");
+ 		</script>
+	</body>
+	
+</html>

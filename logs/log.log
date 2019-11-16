@@ -1,0 +1,406 @@
+2019-11-10 09:28:49  [ main:0 ] - [ INFO ]  retrycount=1
+2019-11-10 09:28:49  [ main:108 ] - [ INFO ]  sourceCodeDir=src
+2019-11-10 09:28:49  [ main:109 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-10 09:29:30  [ main:41042 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-10 09:29:30  [ main:41045 ] - [ INFO ]  testCorrectLogin Start
+2019-11-10 09:29:32  [ main:42440 ] - [ INFO ]  输入18909276261
+2019-11-10 09:29:32  [ main:43027 ] - [ INFO ]  输入zk18909276261
+2019-11-10 09:29:32  [ main:43107 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-10 09:29:37  [ main:48087 ] - [ INFO ]  testCorrectLogin Success
+2019-11-10 09:29:40  [ main:50525 ] - [ INFO ]  PassedTests = testCorrectLogin
+2019-11-10 09:34:28  [ main:0 ] - [ INFO ]  retrycount=1
+2019-11-10 09:34:28  [ main:31 ] - [ INFO ]  sourceCodeDir=src
+2019-11-10 09:34:28  [ main:31 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-10 09:35:01  [ main:33008 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-10 09:35:01  [ main:33010 ] - [ INFO ]  testCorrectLogin Start
+2019-11-10 09:35:01  [ main:33446 ] - [ INFO ]  输入18909276261
+2019-11-10 09:35:01  [ main:33680 ] - [ INFO ]  输入zk18909276261
+2019-11-10 09:35:02  [ main:33743 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-10 09:35:07  [ main:39306 ] - [ INFO ]  testCorrectLogin Success
+2019-11-10 09:35:09  [ main:41046 ] - [ INFO ]  PassedTests = testCorrectLogin
+2019-11-10 14:06:31  [ main:0 ] - [ INFO ]  输入18909276261
+2019-11-10 14:06:32  [ main:972 ] - [ INFO ]  输入zk18909276261
+2019-11-10 14:06:33  [ main:1017 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-10 14:06:37  [ main:5338 ] - [ INFO ]  点击By.xpath: //a[@data-id="member"]//div[@class="word"]
+2019-11-10 14:06:43  [ main:11859 ] - [ INFO ]  点击By.xpath: //a[contains(text(),'新增会员')]
+2019-11-10 14:06:43  [ main:11996 ] - [ INFO ]  输入小强
+2019-11-10 14:06:44  [ main:12266 ] - [ INFO ]  输入18909287273
+2019-11-10 14:06:44  [ main:12432 ] - [ INFO ]  输入jake
+2019-11-10 14:06:46  [ main:14037 ] - [ INFO ]  点击By.xpath: //snail-members/div[2]/div/div/div[3]/div[2]
+2019-11-10 14:06:47  [ main:15498 ] - [ INFO ]  点击By.cssSelector: .body td:nth-of-type(10) [href='javascript\:void\(0\)\;']:nth-of-type(2)
+2019-11-10 14:06:47  [ main:15549 ] - [ INFO ]  点击By.xpath: //input[@name='name']
+2019-11-10 14:06:48  [ main:16260 ] - [ INFO ]  输入阿黄
+2019-11-10 14:06:48  [ main:16294 ] - [ INFO ]  点击By.xpath: //input[@name="phone"]
+2019-11-10 14:06:48  [ main:16626 ] - [ INFO ]  输入18908287273
+2019-11-10 14:06:48  [ main:16673 ] - [ INFO ]  点击By.xpath: //input[@name="petName"]
+2019-11-10 14:06:48  [ main:16865 ] - [ INFO ]  输入mali
+2019-11-10 14:06:48  [ main:16929 ] - [ INFO ]  点击By.xpath: //snail-members/div[2]/div/div/div[3]/div[2]
+2019-11-10 14:06:50  [ main:18094 ] - [ INFO ]  点击By.xpath: //div[@id="content"]//tr[1]//a[text()='删除']
+2019-11-10 14:06:50  [ main:18171 ] - [ INFO ]  点击By.cssSelector: .layui-layer-btn0
+2019-11-10 14:07:21  [ main:49501 ] - [ INFO ]  输入18909276261
+2019-11-10 14:07:21  [ main:49818 ] - [ INFO ]  输入zk18909276261
+2019-11-10 14:07:21  [ main:49872 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-10 14:07:26  [ main:54188 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-10 14:07:30  [ main:58941 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-10 14:07:31  [ main:59284 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-10 14:07:31  [ main:59373 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-10 14:07:31  [ main:59787 ] - [ INFO ]  输入猫粮
+2019-11-10 14:07:31  [ main:59819 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-10 14:07:33  [ main:61140 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-10 14:07:33  [ main:61206 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-10 14:07:33  [ main:61359 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-10 14:07:33  [ main:61667 ] - [ INFO ]  输入100
+2019-11-10 14:07:33  [ main:61714 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-10 14:07:33  [ main:61810 ] - [ INFO ]  点击By.xpath: //a[@data-id="cashier"]//div[@class="word"]
+2019-11-10 14:07:40  [ main:68181 ] - [ INFO ]  点击By.cssSelector: #shopClassify [data-type='0']:nth-of-type(2) .js-name
+2019-11-10 14:07:41  [ main:69040 ] - [ INFO ]  点击By.cssSelector: .info_area div:nth-of-type(3) [href='javascript\:void\(0\)\;']:nth-child(3)
+2019-11-10 14:07:41  [ main:69100 ] - [ INFO ]  点击By.cssSelector: .layui-layer-content .red_btn
+2019-11-10 14:07:41  [ main:69144 ] - [ INFO ]  点击By.cssSelector: .js-go-pay .word
+2019-11-10 14:08:12  [ main:100275 ] - [ ERROR ]  元素By.cssSelector: #id-left-rem查找超时
+2019-11-10 14:08:13  [ main:101553 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-10 14:08:13  [ main:101694 ] - [ INFO ]  点击By.xpath: /html//input[@id='all_1']
+2019-11-10 14:08:16  [ main:104737 ] - [ INFO ]  点击By.xpath: /html/body/app-root/div/ng-component/div/div/snail-product-stock/div[1]/div[4]
+2019-11-10 14:08:16  [ main:104810 ] - [ INFO ]  点击By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]/div[1]/ul/li[6]
+2019-11-10 14:08:16  [ main:104904 ] - [ INFO ]  点击By.xpath: //div[text()="修改"]
+2019-11-10 14:08:46  [ main:134847 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-10 14:08:47  [ main:135071 ] - [ INFO ]  输入18909276261
+2019-11-10 14:08:47  [ main:135241 ] - [ INFO ]  输入zk18909276261
+2019-11-10 14:08:47  [ main:135277 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-10 14:08:51  [ main:139623 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-10 14:08:54  [ main:142759 ] - [ INFO ]  点击By.xpath: /html//input[@id='all_1']
+2019-11-10 14:08:57  [ main:145862 ] - [ INFO ]  点击By.xpath: /html/body/app-root/div/ng-component/div/div/snail-product-stock/div[1]/div[4]
+2019-11-10 14:08:57  [ main:145955 ] - [ INFO ]  点击By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]/div[1]/ul/li[6]
+2019-11-10 14:08:58  [ main:146031 ] - [ INFO ]  点击By.xpath: //div[text()="修改"]
+2019-11-10 14:09:00  [ main:148091 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-10 14:09:00  [ main:148130 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-10 14:09:00  [ main:148675 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-10 14:09:00  [ main:148749 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-10 14:09:01  [ main:149482 ] - [ INFO ]  输入狗粮
+2019-11-10 14:09:01  [ main:149528 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-10 14:09:02  [ main:150698 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-10 14:09:02  [ main:150796 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-10 14:09:02  [ main:150873 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-10 14:09:03  [ main:151139 ] - [ INFO ]  输入100
+2019-11-10 14:09:03  [ main:151205 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-10 14:09:03  [ main:151427 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-10 14:09:03  [ main:151539 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-10 14:09:03  [ main:151640 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-10 14:09:03  [ main:151702 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-10 14:09:04  [ main:152090 ] - [ INFO ]  输入猫粮
+2019-11-10 14:09:04  [ main:152120 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-10 14:09:04  [ main:152148 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-10 14:09:04  [ main:152178 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-10 14:09:04  [ main:152207 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-10 14:09:04  [ main:152324 ] - [ INFO ]  输入100
+2019-11-10 14:09:04  [ main:152361 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-10 14:09:04  [ main:152430 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-10 14:09:04  [ main:152498 ] - [ INFO ]  点击By.cssSelector: .js-check-box tr:nth-of-type(2) span:nth-of-type(1) span:nth-of-type(2)
+2019-11-10 14:09:35  [ main:183736 ] - [ ERROR ]  元素By.xpath: //div[@class="layui-layer layui-layer-dialog"]/div[3]/a[text()="确定"]查找超时
+2019-11-10 14:09:35  [ main:183945 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-10 14:09:35  [ main:183977 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-10 14:09:36  [ main:184119 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-10 14:09:36  [ main:184207 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-10 14:09:36  [ main:184574 ] - [ INFO ]  输入猫粮
+2019-11-10 14:09:36  [ main:184606 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-10 14:09:36  [ main:184655 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-10 14:09:36  [ main:184688 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-10 14:09:36  [ main:184725 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-10 14:09:36  [ main:184855 ] - [ INFO ]  输入100
+2019-11-10 14:09:36  [ main:184894 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-10 14:09:36  [ main:184960 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-10 14:09:36  [ main:185008 ] - [ INFO ]  点击By.xpath: /html//input[@id='all_1']
+2019-11-10 14:09:40  [ main:188064 ] - [ INFO ]  点击By.xpath: /html/body/app-root/div/ng-component/div/div/snail-product-stock/div[1]/div[4]
+2019-11-10 14:09:40  [ main:188110 ] - [ INFO ]  点击By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]/div[1]/ul/li[6]
+2019-11-10 14:09:40  [ main:188163 ] - [ INFO ]  点击By.xpath: //div[text()="修改"]
+2019-11-10 14:10:02  [ main:210069 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-10 14:10:02  [ main:210589 ] - [ INFO ]  输入18909276261
+2019-11-10 14:10:02  [ main:210768 ] - [ INFO ]  输入zk18909276261
+2019-11-10 14:10:02  [ main:210809 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-10 14:10:26  [ main:234076 ] - [ INFO ]  输入qedqwe
+2019-11-10 14:10:29  [ main:237280 ] - [ INFO ]  输入12345
+2019-11-10 14:32:32  [ main:0 ] - [ ERROR ]  元素By.name: phone查找超时
+2019-11-10 14:34:15  [ main:102826 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-10 14:34:16  [ main:103757 ] - [ INFO ]  输入18909276261
+2019-11-10 14:34:16  [ main:104121 ] - [ INFO ]  输入zk18909276261
+2019-11-10 14:34:16  [ main:104201 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-10 14:34:26  [ main:113916 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-10 14:34:30  [ main:117756 ] - [ INFO ]  点击By.xpath: /html//input[@id='all_1']
+2019-11-10 14:34:33  [ main:120809 ] - [ INFO ]  点击By.xpath: /html/body/app-root/div/ng-component/div/div/snail-product-stock/div[1]/div[4]
+2019-11-10 14:34:33  [ main:120917 ] - [ INFO ]  点击By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]/div[1]/ul/li[6]
+2019-11-10 14:34:33  [ main:120970 ] - [ INFO ]  点击By.xpath: //div[text()="修改"]
+2019-11-10 14:34:35  [ main:123056 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-10 14:34:35  [ main:123090 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-10 14:34:37  [ main:125002 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-10 14:34:37  [ main:125059 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-10 14:34:44  [ main:131830 ] - [ INFO ]  输入狗粮
+2019-11-10 14:34:44  [ main:131870 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-10 14:34:44  [ main:131919 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-10 14:34:44  [ main:131959 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-10 14:34:44  [ main:131997 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-10 14:34:45  [ main:133444 ] - [ INFO ]  输入100
+2019-11-10 14:34:45  [ main:133500 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-10 14:34:47  [ main:135041 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-10 14:34:47  [ main:135065 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-10 14:34:47  [ main:135139 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-10 14:34:47  [ main:135166 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-10 14:34:47  [ main:135545 ] - [ INFO ]  输入猫粮
+2019-11-10 14:34:48  [ main:135720 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-10 14:34:48  [ main:135972 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-10 14:34:48  [ main:136309 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-10 14:34:48  [ main:136342 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-10 14:34:49  [ main:136712 ] - [ INFO ]  输入100
+2019-11-10 14:34:49  [ main:136792 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-10 14:34:49  [ main:136991 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-10 14:34:49  [ main:137099 ] - [ INFO ]  点击By.cssSelector: .js-check-box tr:nth-of-type(2) span:nth-of-type(1) span:nth-of-type(2)
+2019-11-10 14:34:49  [ main:137447 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer layui-layer-dialog"]/div[3]/a[text()="确定"]
+2019-11-10 14:34:52  [ main:139580 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-10 14:34:52  [ main:139655 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-10 14:34:52  [ main:139805 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-10 14:34:52  [ main:139863 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-10 14:34:52  [ main:140239 ] - [ INFO ]  输入猫粮
+2019-11-10 14:34:52  [ main:140268 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-10 14:34:52  [ main:140298 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-10 14:34:52  [ main:140328 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-10 14:34:52  [ main:140356 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-10 14:34:52  [ main:140480 ] - [ INFO ]  输入100
+2019-11-10 14:34:52  [ main:140515 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-10 14:34:53  [ main:140576 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-10 14:34:53  [ main:140621 ] - [ INFO ]  点击By.xpath: /html//input[@id='all_1']
+2019-11-10 14:34:56  [ main:143667 ] - [ INFO ]  点击By.xpath: /html/body/app-root/div/ng-component/div/div/snail-product-stock/div[1]/div[4]
+2019-11-10 14:34:56  [ main:143721 ] - [ INFO ]  点击By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]/div[1]/ul/li[6]
+2019-11-10 14:34:56  [ main:143772 ] - [ INFO ]  点击By.xpath: //div[text()="修改"]
+2019-11-10 14:35:29  [ main:177465 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-10 14:35:30  [ main:178413 ] - [ INFO ]  输入18909276261
+2019-11-10 14:35:31  [ main:178609 ] - [ INFO ]  输入zk18909276261
+2019-11-10 14:35:31  [ main:178649 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-10 14:36:07  [ main:215445 ] - [ INFO ]  输入qedqwe
+2019-11-10 14:36:11  [ main:218601 ] - [ INFO ]  输入12345
+2019-11-10 15:07:44  [ main:0 ] - [ INFO ]  输入18909276261
+2019-11-10 15:07:45  [ main:898 ] - [ INFO ]  输入zk18909276261
+2019-11-10 15:07:45  [ main:943 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-10 15:07:53  [ main:8612 ] - [ INFO ]  点击By.xpath: //a[@data-id="member"]//div[@class="word"]
+2019-11-10 15:08:18  [ main:33935 ] - [ INFO ]  点击By.xpath: //a[contains(text(),'新增会员')]
+2019-11-10 15:08:18  [ main:34207 ] - [ INFO ]  输入小强
+2019-11-10 15:08:18  [ main:34441 ] - [ INFO ]  输入18909287273
+2019-11-10 15:08:19  [ main:34625 ] - [ INFO ]  输入jake
+2019-11-10 15:08:19  [ main:34935 ] - [ INFO ]  点击By.xpath: //snail-members/div[2]/div/div/div[3]/div[2]
+2019-11-10 15:08:20  [ main:36054 ] - [ INFO ]  点击By.cssSelector: .body td:nth-of-type(10) [href='javascript\:void\(0\)\;']:nth-of-type(2)
+2019-11-10 15:08:20  [ main:36100 ] - [ INFO ]  点击By.xpath: //input[@name='name']
+2019-11-10 15:08:21  [ main:36717 ] - [ INFO ]  输入阿黄
+2019-11-10 15:08:21  [ main:36763 ] - [ INFO ]  点击By.xpath: //input[@name="phone"]
+2019-11-10 15:08:21  [ main:37033 ] - [ INFO ]  输入18908287273
+2019-11-10 15:08:21  [ main:37070 ] - [ INFO ]  点击By.xpath: //input[@name="petName"]
+2019-11-10 15:08:21  [ main:37216 ] - [ INFO ]  输入mali
+2019-11-10 15:08:22  [ main:37695 ] - [ INFO ]  点击By.xpath: //snail-members/div[2]/div/div/div[3]/div[2]
+2019-11-10 15:08:24  [ main:40167 ] - [ INFO ]  点击By.xpath: //div[@id="content"]//tr[1]//a[text()='删除']
+2019-11-10 15:08:24  [ main:40207 ] - [ INFO ]  点击By.cssSelector: .layui-layer-btn0
+2019-11-10 15:09:24  [ main:99639 ] - [ INFO ]  输入18909276261
+2019-11-10 15:09:24  [ main:99875 ] - [ INFO ]  输入zk18909276261
+2019-11-10 15:09:24  [ main:99927 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-10 15:09:28  [ main:104227 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-10 15:09:31  [ main:107406 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-10 15:09:32  [ main:108442 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-10 15:09:32  [ main:108540 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-10 15:09:33  [ main:109224 ] - [ INFO ]  输入猫粮
+2019-11-10 15:09:33  [ main:109256 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-10 15:09:34  [ main:110453 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-10 15:09:34  [ main:110500 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-10 15:09:34  [ main:110542 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-10 15:09:35  [ main:110714 ] - [ INFO ]  输入100
+2019-11-10 15:09:35  [ main:110768 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-10 15:09:35  [ main:110831 ] - [ INFO ]  点击By.xpath: //a[@data-id="cashier"]//div[@class="word"]
+2019-11-10 15:09:39  [ main:114847 ] - [ INFO ]  点击By.cssSelector: #shopClassify [data-type='0']:nth-of-type(2) .js-name
+2019-11-10 15:09:39  [ main:115515 ] - [ INFO ]  点击By.cssSelector: .info_area div:nth-of-type(3) [href='javascript\:void\(0\)\;']:nth-child(3)
+2019-11-10 15:09:39  [ main:115582 ] - [ INFO ]  点击By.cssSelector: .layui-layer-content .red_btn
+2019-11-10 15:09:40  [ main:115675 ] - [ INFO ]  点击By.cssSelector: .js-go-pay .word
+2019-11-10 15:10:13  [ main:149327 ] - [ ERROR ]  元素By.cssSelector: #id-left-rem查找超时
+2019-11-10 15:10:15  [ main:151449 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-10 15:10:15  [ main:151497 ] - [ INFO ]  点击By.xpath: /html//input[@id='all_1']
+2019-11-10 15:10:18  [ main:154533 ] - [ INFO ]  点击By.xpath: /html/body/app-root/div/ng-component/div/div/snail-product-stock/div[1]/div[4]
+2019-11-10 15:10:18  [ main:154585 ] - [ INFO ]  点击By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]/div[1]/ul/li[6]
+2019-11-10 15:10:19  [ main:154634 ] - [ INFO ]  点击By.xpath: //div[text()="修改"]
+2019-11-10 15:10:57  [ main:193175 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-10 15:10:57  [ main:193415 ] - [ INFO ]  输入18909276261
+2019-11-10 15:10:58  [ main:193597 ] - [ INFO ]  输入zk18909276261
+2019-11-10 15:10:58  [ main:193641 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-10 15:11:02  [ main:197934 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-10 15:11:04  [ main:200204 ] - [ INFO ]  点击By.xpath: /html//input[@id='all_1']
+2019-11-10 15:11:07  [ main:203266 ] - [ INFO ]  点击By.xpath: /html/body/app-root/div/ng-component/div/div/snail-product-stock/div[1]/div[4]
+2019-11-10 15:11:07  [ main:203330 ] - [ INFO ]  点击By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]/div[1]/ul/li[6]
+2019-11-10 15:11:07  [ main:203382 ] - [ INFO ]  点击By.xpath: //div[text()="修改"]
+2019-11-10 15:11:09  [ main:205467 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-10 15:11:09  [ main:205503 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-10 15:11:10  [ main:205769 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-10 15:11:10  [ main:205815 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-10 15:11:10  [ main:206153 ] - [ INFO ]  输入狗粮
+2019-11-10 15:11:10  [ main:206184 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-10 15:11:11  [ main:207395 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-10 15:11:11  [ main:207439 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-10 15:11:11  [ main:207479 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-10 15:11:12  [ main:207642 ] - [ INFO ]  输入100
+2019-11-10 15:11:12  [ main:207688 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-10 15:11:12  [ main:207938 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-10 15:11:12  [ main:207996 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-10 15:11:12  [ main:208115 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-10 15:11:12  [ main:208154 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-10 15:11:12  [ main:208534 ] - [ INFO ]  输入猫粮
+2019-11-10 15:11:12  [ main:208566 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-10 15:11:13  [ main:208604 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-10 15:11:13  [ main:208687 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-10 15:11:13  [ main:208731 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-10 15:11:13  [ main:208856 ] - [ INFO ]  输入100
+2019-11-10 15:11:13  [ main:208902 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-10 15:11:13  [ main:208967 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-10 15:11:13  [ main:209005 ] - [ INFO ]  点击By.cssSelector: .js-check-box tr:nth-of-type(2) span:nth-of-type(1) span:nth-of-type(2)
+2019-11-10 15:11:44  [ main:240180 ] - [ ERROR ]  元素By.xpath: //div[@class="layui-layer layui-layer-dialog"]/div[3]/a[text()="确定"]查找超时
+2019-11-10 15:11:44  [ main:240363 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-10 15:11:44  [ main:240398 ] - [ INFO ]  点击By.xpath: //a[@data-id="stock"]
+2019-11-10 15:11:44  [ main:240524 ] - [ INFO ]  点击By.xpath: //a[@data-type="add"]
+2019-11-10 15:11:44  [ main:240581 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-10 15:11:45  [ main:240952 ] - [ INFO ]  输入猫粮
+2019-11-10 15:11:45  [ main:240988 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-10 15:11:45  [ main:241028 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]/div/div/ul/li[1]
+2019-11-10 15:11:45  [ main:241060 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]
+2019-11-10 15:11:45  [ main:241117 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[2]/div/div/ul/li[5]
+2019-11-10 15:11:45  [ main:241262 ] - [ INFO ]  输入100
+2019-11-10 15:11:45  [ main:241300 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]//div[@class="red_btn"]
+2019-11-10 15:11:45  [ main:241364 ] - [ INFO ]  点击By.xpath: //a[@data-id="product"]//div[@class="word"]
+2019-11-10 15:11:45  [ main:241419 ] - [ INFO ]  点击By.xpath: /html//input[@id='all_1']
+2019-11-10 15:11:48  [ main:244482 ] - [ INFO ]  点击By.xpath: /html/body/app-root/div/ng-component/div/div/snail-product-stock/div[1]/div[4]
+2019-11-10 15:11:48  [ main:244539 ] - [ INFO ]  点击By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]/div[1]/ul/li[6]
+2019-11-10 15:11:48  [ main:244586 ] - [ INFO ]  点击By.xpath: //div[text()="修改"]
+2019-11-10 15:12:18  [ main:274423 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-10 15:12:19  [ main:274755 ] - [ INFO ]  输入18909276261
+2019-11-10 15:12:19  [ main:274991 ] - [ INFO ]  输入zk18909276261
+2019-11-10 15:12:19  [ main:275062 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-10 15:12:42  [ main:298113 ] - [ INFO ]  输入qedqwe
+2019-11-10 15:12:45  [ main:301261 ] - [ INFO ]  输入12345
+2019-11-10 15:37:41  [ main:0 ] - [ INFO ]  当前时间为：20191110_153741
+2019-11-10 15:37:42  [ main:1617 ] - [ INFO ]  retrycount=1
+2019-11-10 15:37:42  [ main:1618 ] - [ INFO ]  sourceCodeDir=src
+2019-11-10 15:37:42  [ main:1619 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-10 15:39:03  [ main:82650 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-10 15:39:03  [ main:82652 ] - [ INFO ]  testCorrectLogin Start
+2019-11-10 15:39:04  [ main:83284 ] - [ INFO ]  输入18909276261
+2019-11-10 15:39:05  [ main:84092 ] - [ INFO ]  输入zk18909276261
+2019-11-10 15:39:05  [ main:84134 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-10 15:39:10  [ main:88944 ] - [ INFO ]  testCorrectLogin Success
+2019-11-10 15:39:11  [ main:90774 ] - [ INFO ]  PassedTests = testCorrectLogin
+2019-11-10 15:43:19  [ main:0 ] - [ INFO ]  当前时间为：20191110_154319
+2019-11-10 15:43:19  [ main:200 ] - [ INFO ]  retrycount=1
+2019-11-10 15:43:19  [ main:200 ] - [ INFO ]  sourceCodeDir=src
+2019-11-10 15:43:19  [ main:201 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-10 15:43:55  [ main:36280 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-10 15:43:55  [ main:36282 ] - [ INFO ]  testCorrectLogin Start
+2019-11-10 15:43:56  [ main:36774 ] - [ INFO ]  输入18909276261
+2019-11-10 15:43:56  [ main:37065 ] - [ INFO ]  输入zk18909276261
+2019-11-10 15:43:56  [ main:37118 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-10 15:44:02  [ main:43450 ] - [ INFO ]  testCorrectLogin Success
+2019-11-10 15:44:27  [ main:67670 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-10 15:44:27  [ main:67671 ] - [ INFO ]  testWrongLogin Start
+2019-11-10 15:44:27  [ main:68024 ] - [ INFO ]  输入18909276261
+2019-11-10 15:44:27  [ main:68141 ] - [ INFO ]  输入
+2019-11-10 15:44:27  [ main:68285 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-10 15:44:28  [ main:69480 ] - [ INFO ]  当前时间为：20191110
+2019-11-10 15:44:28  [ main:69483 ] - [ INFO ]  new folder successful
+2019-11-10 15:44:28  [ main:69484 ] - [ INFO ]  当前时间为：20191110_154428
+2019-11-10 15:44:29  [ main:69795 ] - [ INFO ]  Retry for [testWrongLogin] on class [com.zhangkai.testCase.TestLogin] Retry 1 times
+2019-11-10 15:44:29  [ main:69796 ] - [ INFO ]  testWrongLogin Skipped
+2019-11-10 15:44:50  [ main:91441 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-10 15:44:50  [ main:91442 ] - [ INFO ]  testWrongLogin Start
+2019-11-10 15:44:51  [ main:91836 ] - [ INFO ]  输入18909276261
+2019-11-10 15:44:51  [ main:91957 ] - [ INFO ]  输入
+2019-11-10 15:44:51  [ main:92043 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-10 15:44:52  [ main:92875 ] - [ INFO ]  当前时间为：20191110
+2019-11-10 15:44:52  [ main:92876 ] - [ INFO ]  当前时间为：20191110_154452
+2019-11-10 15:44:53  [ main:93617 ] - [ INFO ]  当前时间为：20191110
+2019-11-10 15:44:53  [ main:93618 ] - [ INFO ]  当前时间为：20191110_154453
+2019-11-10 15:44:53  [ main:93694 ] - [ INFO ]  testWrongLogin Failure
+2019-11-10 15:45:16  [ main:116658 ] - [ INFO ]  testWrongLogin Start
+2019-11-10 15:45:16  [ main:116659 ] - [ INFO ]  testWrongLogin Skipped
+2019-11-10 15:45:16  [ main:116660 ] - [ INFO ]  testWrongLogin Start
+2019-11-10 15:45:16  [ main:116661 ] - [ INFO ]  testWrongLogin Skipped
+2019-11-10 15:45:16  [ main:116663 ] - [ INFO ]  testWrongLogin Start
+2019-11-10 15:45:16  [ main:116664 ] - [ INFO ]  testWrongLogin Skipped
+2019-11-10 15:45:16  [ main:116665 ] - [ INFO ]  testWrongLogin Start
+2019-11-10 15:45:16  [ main:116666 ] - [ INFO ]  testWrongLogin Skipped
+2019-11-10 15:45:16  [ main:116812 ] - [ INFO ]  PassedTests = testCorrectLogin
+2019-11-10 15:45:16  [ main:116812 ] - [ INFO ]  skipTest = testWrongLogin
+2019-11-10 15:45:16  [ main:116813 ] - [ INFO ]  skipTest = testWrongLogin
+2019-11-10 15:45:16  [ main:116813 ] - [ INFO ]  skipTest = testWrongLogin
+2019-11-10 15:45:16  [ main:116814 ] - [ INFO ]  skipTest = testWrongLogin
+2019-11-10 15:45:16  [ main:116814 ] - [ INFO ]  skipTest = testWrongLogin
+2019-11-10 15:45:16  [ main:116814 ] - [ INFO ]  failedTest = testWrongLogin
+2019-11-10 15:45:16  [ main:116814 ] - [ INFO ]  Remove repeat Fail Test: testWrongLogin
+2019-11-10 15:53:19  [ main:0 ] - [ INFO ]  当前时间为：20191110_155319
+2019-11-10 15:53:19  [ main:225 ] - [ INFO ]  retrycount=1
+2019-11-10 15:53:19  [ main:227 ] - [ INFO ]  sourceCodeDir=src
+2019-11-10 15:53:19  [ main:228 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-10 15:54:15  [ main:55638 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-10 15:54:15  [ main:55639 ] - [ INFO ]  testCorrectLogin Start
+2019-11-10 15:54:15  [ main:56313 ] - [ INFO ]  输入18909276261
+2019-11-10 15:54:16  [ main:56677 ] - [ INFO ]  输入zk18909276261
+2019-11-10 15:54:16  [ main:56724 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-10 15:54:22  [ main:62907 ] - [ INFO ]  testCorrectLogin Success
+2019-11-10 15:54:41  [ main:82103 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-10 15:54:41  [ main:82104 ] - [ INFO ]  testWrongLogin Start
+2019-11-10 15:54:42  [ main:82492 ] - [ INFO ]  输入18909276261
+2019-11-10 15:54:42  [ main:82609 ] - [ INFO ]  输入
+2019-11-10 15:54:42  [ main:82683 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-10 15:54:43  [ main:83938 ] - [ INFO ]  当前时间为：20191110
+2019-11-10 15:54:43  [ main:83940 ] - [ INFO ]  当前时间为：20191110_155443
+2019-11-10 15:54:43  [ main:84217 ] - [ INFO ]  Retry for [testWrongLogin] on class [com.zhangkai.testCase.TestLogin] Retry 1 times
+2019-11-10 15:54:43  [ main:84218 ] - [ INFO ]  testWrongLogin Skipped
+2019-11-10 15:55:07  [ main:108095 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-10 15:55:07  [ main:108096 ] - [ INFO ]  testWrongLogin Start
+2019-11-10 15:55:08  [ main:108577 ] - [ INFO ]  输入18909276261
+2019-11-10 15:55:08  [ main:108723 ] - [ INFO ]  输入
+2019-11-10 15:55:08  [ main:108802 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-10 15:55:09  [ main:110115 ] - [ INFO ]  当前时间为：20191110
+2019-11-10 15:55:09  [ main:110117 ] - [ INFO ]  当前时间为：20191110_155509
+2019-11-10 15:55:11  [ main:111584 ] - [ INFO ]  当前时间为：20191110
+2019-11-10 15:55:11  [ main:111585 ] - [ INFO ]  当前时间为：20191110_155511
+2019-11-10 15:55:11  [ main:111589 ] - [ INFO ]  testWrongLogin Failure
+2019-11-10 15:55:32  [ main:133137 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-10 15:55:32  [ main:133138 ] - [ INFO ]  testWrongLogin Start
+2019-11-10 15:55:33  [ main:133543 ] - [ INFO ]  输入18909276261
+2019-11-10 15:55:33  [ main:134256 ] - [ INFO ]  输入1234567879
+2019-11-10 15:55:33  [ main:134305 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-10 15:55:34  [ main:134978 ] - [ INFO ]  当前时间为：20191110
+2019-11-10 15:55:34  [ main:134979 ] - [ INFO ]  当前时间为：20191110_155534
+2019-11-10 15:55:35  [ main:135421 ] - [ INFO ]  当前时间为：20191110
+2019-11-10 15:55:35  [ main:135421 ] - [ INFO ]  当前时间为：20191110_155535
+2019-11-10 15:55:35  [ main:135426 ] - [ INFO ]  testWrongLogin Failure
+2019-11-10 15:55:58  [ main:158901 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-10 15:55:58  [ main:158902 ] - [ INFO ]  testWrongLogin Start
+2019-11-10 15:55:58  [ main:159302 ] - [ INFO ]  输入18909276261
+2019-11-10 15:55:59  [ main:159577 ] - [ INFO ]  输入1234567879
+2019-11-10 15:55:59  [ main:159625 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-10 15:56:00  [ main:160454 ] - [ INFO ]  当前时间为：20191110
+2019-11-10 15:56:00  [ main:160455 ] - [ INFO ]  当前时间为：20191110_155600
+2019-11-10 15:56:00  [ main:160918 ] - [ INFO ]  当前时间为：20191110
+2019-11-10 15:56:00  [ main:160919 ] - [ INFO ]  当前时间为：20191110_155600
+2019-11-10 15:56:00  [ main:160923 ] - [ INFO ]  testWrongLogin Failure
+2019-11-10 15:56:26  [ main:186394 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-10 15:56:26  [ main:186396 ] - [ INFO ]  testWrongLogin Start
+2019-11-10 15:56:26  [ main:186903 ] - [ INFO ]  输入18909276266
+2019-11-10 15:56:26  [ main:187216 ] - [ INFO ]  输入zk18909276261
+2019-11-10 15:56:26  [ main:187276 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-10 15:56:27  [ main:187970 ] - [ INFO ]  当前时间为：20191110
+2019-11-10 15:56:27  [ main:187971 ] - [ INFO ]  当前时间为：20191110_155627
+2019-11-10 15:56:28  [ main:188458 ] - [ INFO ]  当前时间为：20191110
+2019-11-10 15:56:28  [ main:188458 ] - [ INFO ]  当前时间为：20191110_155628
+2019-11-10 15:56:28  [ main:188463 ] - [ INFO ]  testWrongLogin Failure
+2019-11-10 15:57:01  [ main:221561 ] - [ INFO ]  testWrongLogin Start
+2019-11-10 15:57:01  [ main:221563 ] - [ INFO ]  testWrongLogin Skipped
+2019-11-10 15:57:01  [ main:221856 ] - [ INFO ]  PassedTests = testCorrectLogin
+2019-11-10 15:57:01  [ main:221857 ] - [ INFO ]  skipTest = testWrongLogin
+2019-11-10 15:57:01  [ main:221857 ] - [ INFO ]  skipTest = testWrongLogin
+2019-11-10 15:57:01  [ main:221857 ] - [ INFO ]  failedTest = testWrongLogin
+2019-11-10 15:57:01  [ main:221858 ] - [ INFO ]  failedTest = testWrongLogin
+2019-11-10 15:57:01  [ main:221858 ] - [ INFO ]  failedTest = testWrongLogin
+2019-11-10 15:57:01  [ main:221858 ] - [ INFO ]  failedTest = testWrongLogin
+2019-11-10 15:57:01  [ main:221858 ] - [ INFO ]  Remove repeat Fail Test: testWrongLogin
+2019-11-10 15:57:01  [ main:221858 ] - [ INFO ]  Remove repeat Fail Test: testWrongLogin
+2019-11-10 15:57:01  [ main:221858 ] - [ INFO ]  Remove repeat Fail Test: testWrongLogin
+2019-11-10 15:57:07  [ main:227429 ] - [ INFO ]  当前时间为：20191110

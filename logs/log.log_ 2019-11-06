@@ -1,0 +1,184 @@
+2019-11-06 19:28:42  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-06 19:28:42  [ main:20 ] - [ INFO ]  sourceCodeDir=src
+2019-11-06 19:28:42  [ main:20 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-06 19:29:27  [ main:44500 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-06 19:29:27  [ main:45049 ] - [ INFO ]  输入18909276261
+2019-11-06 19:29:28  [ main:45511 ] - [ INFO ]  输入zk18909276261
+2019-11-06 19:29:28  [ main:45608 ] - [ INFO ]  点击By.className: ori-btn
+2019-11-06 19:29:28  [ main:45616 ] - [ INFO ]  addGoods Start
+2019-11-06 19:29:39  [ main:57061 ] - [ INFO ]  当前时间为：20191106
+2019-11-06 19:29:39  [ main:57062 ] - [ INFO ]  new folder successful
+2019-11-06 19:29:39  [ main:57063 ] - [ INFO ]  当前时间为：20191106_192939
+2019-11-06 19:29:40  [ main:57327 ] - [ INFO ]  addGoods Failure
+2019-11-06 19:29:41  [ main:58634 ] - [ INFO ]  failedTest = addGoods
+2019-11-06 19:33:57  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-06 19:33:58  [ main:32 ] - [ INFO ]  sourceCodeDir=src
+2019-11-06 19:33:58  [ main:33 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-06 19:34:27  [ main:29936 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-06 19:34:28  [ main:30644 ] - [ INFO ]  输入18909276261
+2019-11-06 19:34:29  [ main:31463 ] - [ INFO ]  输入zk18909276261
+2019-11-06 19:34:29  [ main:31841 ] - [ INFO ]  addGoods Start
+2019-11-06 19:34:36  [ main:38614 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-06 19:34:37  [ main:39038 ] - [ INFO ]  输入猫粮
+2019-11-06 19:34:49  [ main:51047 ] - [ INFO ]  当前时间为：20191106
+2019-11-06 19:34:49  [ main:51048 ] - [ INFO ]  当前时间为：20191106_193449
+2019-11-06 19:34:49  [ main:51233 ] - [ INFO ]  addGoods Failure
+2019-11-06 19:34:50  [ main:52323 ] - [ INFO ]  failedTest = addGoods
+2019-11-06 19:45:44  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-06 19:45:44  [ main:34 ] - [ INFO ]  sourceCodeDir=src
+2019-11-06 19:45:44  [ main:35 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-06 19:46:16  [ main:32279 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-06 19:46:16  [ main:32951 ] - [ INFO ]  输入18909276261
+2019-11-06 19:46:17  [ main:33298 ] - [ INFO ]  输入zk18909276261
+2019-11-06 19:46:17  [ main:33381 ] - [ INFO ]  addGoods Start
+2019-11-06 19:46:24  [ main:40788 ] - [ INFO ]  点击By.xpath: //div[@class="layui-layer-content"]//ul[@class="product-type"]/li[1]
+2019-11-06 19:46:25  [ main:41116 ] - [ INFO ]  输入猫粮
+2019-11-06 19:46:25  [ main:41203 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-06 19:46:38  [ main:54431 ] - [ INFO ]  当前时间为：20191106
+2019-11-06 19:46:38  [ main:54432 ] - [ INFO ]  当前时间为：20191106_194638
+2019-11-06 19:46:38  [ main:54592 ] - [ INFO ]  addGoods Failure
+2019-11-06 19:46:40  [ main:56104 ] - [ INFO ]  failedTest = addGoods
+2019-11-06 19:53:38  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-06 19:53:38  [ main:32 ] - [ INFO ]  sourceCodeDir=src
+2019-11-06 19:53:38  [ main:32 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-06 19:54:01  [ main:22897 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-06 19:54:01  [ main:23167 ] - [ INFO ]  输入18909276261
+2019-11-06 19:54:02  [ main:23348 ] - [ INFO ]  输入zk18909276261
+2019-11-06 19:54:02  [ main:23400 ] - [ INFO ]  addGoods Start
+2019-11-06 19:54:13  [ main:34415 ] - [ INFO ]  当前时间为：20191106
+2019-11-06 19:54:13  [ main:34416 ] - [ INFO ]  当前时间为：20191106_195413
+2019-11-06 19:54:13  [ main:34807 ] - [ INFO ]  addGoods Failure
+2019-11-06 19:54:14  [ main:35952 ] - [ INFO ]  failedTest = addGoods
+2019-11-06 19:55:51  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-06 19:55:51  [ main:68 ] - [ INFO ]  sourceCodeDir=src
+2019-11-06 19:55:51  [ main:69 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-06 19:56:20  [ main:28770 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-06 19:56:20  [ main:29163 ] - [ INFO ]  输入18909276261
+2019-11-06 19:56:20  [ main:29451 ] - [ INFO ]  输入zk18909276261
+2019-11-06 19:56:20  [ main:29504 ] - [ INFO ]  addGoods Start
+2019-11-06 19:56:28  [ main:37492 ] - [ INFO ]  输入猫粮
+2019-11-06 19:56:28  [ main:37602 ] - [ INFO ]  点击By.xpath: //*[@class="layui-layer layui-layer-page"]/div/div/div[2]/div/div[7]/div[1]
+2019-11-06 19:56:40  [ main:49603 ] - [ INFO ]  当前时间为：20191106
+2019-11-06 19:56:40  [ main:49604 ] - [ INFO ]  当前时间为：20191106_195640
+2019-11-06 19:56:40  [ main:49655 ] - [ INFO ]  addGoods Failure
+2019-11-06 19:56:42  [ main:50819 ] - [ INFO ]  failedTest = addGoods
+2019-11-06 20:04:47  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-06 20:04:47  [ main:28 ] - [ INFO ]  sourceCodeDir=src
+2019-11-06 20:04:47  [ main:28 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-06 20:05:28  [ main:40289 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-06 20:05:28  [ main:40947 ] - [ INFO ]  输入18909276261
+2019-11-06 20:05:29  [ main:41852 ] - [ INFO ]  输入zk18909276261
+2019-11-06 20:05:29  [ main:41945 ] - [ INFO ]  addGoods Start
+2019-11-06 20:05:39  [ main:51315 ] - [ INFO ]  输入猫粮
+2019-11-06 20:05:41  [ main:53522 ] - [ INFO ]  addGoods Success
+2019-11-06 20:05:42  [ main:54895 ] - [ INFO ]  PassedTests = addGoods
+2019-11-06 20:29:18  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-06 20:29:18  [ main:101 ] - [ INFO ]  sourceCodeDir=src
+2019-11-06 20:29:18  [ main:102 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-06 20:29:57  [ main:38676 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-06 20:29:58  [ main:39572 ] - [ INFO ]  输入18909276261
+2019-11-06 20:29:58  [ main:39913 ] - [ INFO ]  输入zk18909276261
+2019-11-06 20:29:58  [ main:40260 ] - [ INFO ]  addGoods Start
+2019-11-06 20:30:06  [ main:47643 ] - [ INFO ]  输入猫粮
+2019-11-06 20:30:09  [ main:50892 ] - [ INFO ]  当前时间为：20191106
+2019-11-06 20:30:09  [ main:50894 ] - [ INFO ]  当前时间为：20191106_203009
+2019-11-06 20:30:09  [ main:51136 ] - [ INFO ]  addGoods Failure
+2019-11-06 20:30:09  [ main:51137 ] - [ INFO ]  addGoods Start
+2019-11-06 20:30:10  [ main:51803 ] - [ INFO ]  输入狗粮
+2019-11-06 20:30:11  [ main:52457 ] - [ INFO ]  当前时间为：20191106
+2019-11-06 20:30:11  [ main:52458 ] - [ INFO ]  当前时间为：20191106_203011
+2019-11-06 20:30:11  [ main:52558 ] - [ INFO ]  addGoods Failure
+2019-11-06 20:30:11  [ main:52560 ] - [ INFO ]  addGoods Start
+2019-11-06 20:30:11  [ main:53266 ] - [ INFO ]  输入狗圈
+2019-11-06 20:30:12  [ main:54157 ] - [ INFO ]  当前时间为：20191106
+2019-11-06 20:30:12  [ main:54159 ] - [ INFO ]  当前时间为：20191106_203012
+2019-11-06 20:30:12  [ main:54165 ] - [ INFO ]  addGoods Failure
+2019-11-06 20:30:12  [ main:54168 ] - [ INFO ]  deleteOne Start
+2019-11-06 20:30:13  [ main:54788 ] - [ INFO ]  当前时间为：20191106
+2019-11-06 20:30:13  [ main:54789 ] - [ INFO ]  当前时间为：20191106_203013
+2019-11-06 20:30:13  [ main:54815 ] - [ INFO ]  deleteOne Failure
+2019-11-06 20:30:14  [ main:56203 ] - [ INFO ]  failedTest = addGoods
+2019-11-06 20:30:14  [ main:56203 ] - [ INFO ]  failedTest = deleteOne
+2019-11-06 20:30:14  [ main:56203 ] - [ INFO ]  failedTest = addGoods
+2019-11-06 20:30:14  [ main:56203 ] - [ INFO ]  failedTest = addGoods
+2019-11-06 20:33:02  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-06 20:33:03  [ main:43 ] - [ INFO ]  sourceCodeDir=src
+2019-11-06 20:33:03  [ main:43 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-06 20:33:26  [ main:23132 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-06 20:33:26  [ main:23564 ] - [ INFO ]  输入18909276261
+2019-11-06 20:33:26  [ main:23891 ] - [ INFO ]  输入zk18909276261
+2019-11-06 20:33:26  [ main:23939 ] - [ INFO ]  addGoods Start
+2019-11-06 20:33:36  [ main:33279 ] - [ INFO ]  输入猫粮
+2019-11-06 20:33:38  [ main:35154 ] - [ INFO ]  addGoods Success
+2019-11-06 20:33:38  [ main:35156 ] - [ INFO ]  addGoods Start
+2019-11-06 20:33:38  [ main:35915 ] - [ INFO ]  输入狗粮
+2019-11-06 20:33:39  [ main:36993 ] - [ INFO ]  当前时间为：20191106
+2019-11-06 20:33:39  [ main:36994 ] - [ INFO ]  当前时间为：20191106_203339
+2019-11-06 20:33:40  [ main:37490 ] - [ INFO ]  addGoods Failure
+2019-11-06 20:33:40  [ main:37492 ] - [ INFO ]  addGoods Start
+2019-11-06 20:33:41  [ main:38295 ] - [ INFO ]  输入狗圈
+2019-11-06 20:33:41  [ main:38961 ] - [ INFO ]  当前时间为：20191106
+2019-11-06 20:33:41  [ main:38962 ] - [ INFO ]  当前时间为：20191106_203341
+2019-11-06 20:33:41  [ main:38975 ] - [ INFO ]  addGoods Failure
+2019-11-06 20:33:41  [ main:38977 ] - [ INFO ]  deleteAll Start
+2019-11-06 20:34:13  [ main:70668 ] - [ ERROR ]  元素By.xpath: //div[@class="wn-btn order-by wn-select model-classify-select text-l open"]查找超时
+2019-11-06 20:34:14  [ main:71084 ] - [ INFO ]  当前时间为：20191106
+2019-11-06 20:34:14  [ main:71087 ] - [ INFO ]  当前时间为：20191106_203414
+2019-11-06 20:34:14  [ main:71091 ] - [ INFO ]  deleteAll Failure
+2019-11-06 20:34:14  [ main:71092 ] - [ INFO ]  deleteOne Start
+2019-11-06 20:34:14  [ main:71914 ] - [ INFO ]  当前时间为：20191106
+2019-11-06 20:34:14  [ main:71914 ] - [ INFO ]  当前时间为：20191106_203414
+2019-11-06 20:34:14  [ main:71938 ] - [ INFO ]  deleteOne Failure
+2019-11-06 20:34:15  [ main:72891 ] - [ INFO ]  PassedTests = addGoods
+2019-11-06 20:34:15  [ main:72892 ] - [ INFO ]  failedTest = deleteAll
+2019-11-06 20:34:15  [ main:72892 ] - [ INFO ]  failedTest = deleteOne
+2019-11-06 20:34:15  [ main:72892 ] - [ INFO ]  failedTest = addGoods
+2019-11-06 20:34:15  [ main:72893 ] - [ INFO ]  failedTest = addGoods
+2019-11-06 20:49:28  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-06 20:49:28  [ main:29 ] - [ INFO ]  sourceCodeDir=src
+2019-11-06 20:49:28  [ main:30 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-06 20:49:57  [ main:28478 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-06 20:49:57  [ main:28877 ] - [ INFO ]  输入18909276261
+2019-11-06 20:49:57  [ main:29325 ] - [ INFO ]  输入zk18909276261
+2019-11-06 20:49:57  [ main:29380 ] - [ INFO ]  test_01_addGoods Start
+2019-11-06 20:50:11  [ main:42719 ] - [ INFO ]  输入猫粮
+2019-11-06 20:50:13  [ main:44869 ] - [ INFO ]  当前时间为：20191106
+2019-11-06 20:50:13  [ main:44871 ] - [ INFO ]  当前时间为：20191106_205013
+2019-11-06 20:50:13  [ main:44911 ] - [ INFO ]  test_01_addGoods Failure
+2019-11-06 20:50:13  [ main:44912 ] - [ INFO ]  test_02_deleteOne Start
+2019-11-06 20:50:14  [ main:45773 ] - [ INFO ]  输入猫粮
+2019-11-06 20:50:46  [ main:78250 ] - [ ERROR ]  元素By.xpath: //div[@class="layui-layer-btn layui-layer-btn-"]/a[1]查找超时
+2019-11-06 20:50:47  [ main:78633 ] - [ INFO ]  当前时间为：20191106
+2019-11-06 20:50:47  [ main:78634 ] - [ INFO ]  当前时间为：20191106_205047
+2019-11-06 20:50:47  [ main:78641 ] - [ INFO ]  test_02_deleteOne Failure
+2019-11-06 20:50:47  [ main:78643 ] - [ INFO ]  test_03_deleteAll Start
+2019-11-06 20:50:47  [ main:79421 ] - [ INFO ]  输入猫粮
+2019-11-06 20:50:48  [ main:80328 ] - [ INFO ]  当前时间为：20191106
+2019-11-06 20:50:48  [ main:80329 ] - [ INFO ]  当前时间为：20191106_205048
+2019-11-06 20:50:48  [ main:80332 ] - [ INFO ]  test_03_deleteAll Failure
+2019-11-06 20:50:50  [ main:81667 ] - [ INFO ]  failedTest = test_01_addGoods
+2019-11-06 20:50:50  [ main:81669 ] - [ INFO ]  failedTest = test_03_deleteAll
+2019-11-06 20:50:50  [ main:81670 ] - [ INFO ]  failedTest = test_02_deleteOne
+2019-11-06 20:58:05  [ main:0 ] - [ INFO ]  retrycount=0
+2019-11-06 20:58:05  [ main:5 ] - [ INFO ]  sourceCodeDir=src
+2019-11-06 20:58:05  [ main:6 ] - [ INFO ]  sourceCodeEncoding=UTF-8
+2019-11-06 20:58:34  [ main:29300 ] - [ INFO ]  点击By.xpath: //div[@id="layui-layer2"]//div[@class="red_btn"]
+2019-11-06 20:58:34  [ main:29718 ] - [ INFO ]  输入18909276261
+2019-11-06 20:58:35  [ main:30052 ] - [ INFO ]  输入zk18909276261
+2019-11-06 20:58:35  [ main:30102 ] - [ INFO ]  test_01_addGoods Start
+2019-11-06 20:58:42  [ main:37531 ] - [ INFO ]  输入猫粮
+2019-11-06 20:58:43  [ main:38842 ] - [ INFO ]  test_01_addGoods Success
+2019-11-06 20:58:43  [ main:38842 ] - [ INFO ]  test_02_deleteOne Start
+2019-11-06 20:58:44  [ main:39557 ] - [ INFO ]  输入猫粮
+2019-11-06 20:59:16  [ main:71180 ] - [ ERROR ]  元素By.xpath: //div[@class="layui-layer layui-layer-dialog"]/div[3]/a[1]查找超时
+2019-11-06 20:59:16  [ main:71846 ] - [ INFO ]  当前时间为：20191106
+2019-11-06 20:59:16  [ main:71848 ] - [ INFO ]  当前时间为：20191106_205916
+2019-11-06 20:59:16  [ main:71918 ] - [ INFO ]  test_02_deleteOne Failure
+2019-11-06 20:59:16  [ main:71920 ] - [ INFO ]  test_03_deleteAll Start
+2019-11-06 20:59:17  [ main:72712 ] - [ INFO ]  输入猫粮
+2019-11-06 20:59:19  [ main:74577 ] - [ INFO ]  当前时间为：20191106
+2019-11-06 20:59:19  [ main:74577 ] - [ INFO ]  当前时间为：20191106_205919
+2019-11-06 20:59:19  [ main:74684 ] - [ INFO ]  test_03_deleteAll Failure
+2019-11-06 20:59:20  [ main:75801 ] - [ INFO ]  PassedTests = test_01_addGoods
+2019-11-06 20:59:20  [ main:75802 ] - [ INFO ]  failedTest = test_02_deleteOne
+2019-11-06 20:59:20  [ main:75803 ] - [ INFO ]  failedTest = test_03_deleteAll
