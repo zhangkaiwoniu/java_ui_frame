@@ -32,16 +32,16 @@ public class TestLogin {
     @DataProvider(name = "loginCorrect")
     public Object[][] getCorrectPara(){
         return new Object[][]{
-                {"18909276261","zk18909276261","安全退出"},
+                {"18909277676","fk1890927645","安全退出"},
 
         };
     }
     @DataProvider(name = "loginWrong")
     public Object[][] getWrongPara(){
         return new Object[][]{
-                {"18909276261","","请输入密码！"},
-                {"18909276261","1234567879","密码错误"},
-                {"18909276266","zk18909276261","您还没有注册"}
+                {"18909276234","","请输入密码！"},
+                {"18909273456","1234567879","密码错误"},
+                {"18909276266","fg189092763421","您还没有注册"}
         };
     }
 
