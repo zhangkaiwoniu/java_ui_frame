@@ -19,7 +19,7 @@ public class TestGoodsStock {
     @BeforeClass
     public void openBrowers() throws InterruptedException {
         HomeModule.openHome(url);
-        LoginModule.login("18909276261","zk18909276261");
+        LoginModule.login("1890927xxx","z");
         GoodsStockModule.deleteAll();
         Thread.sleep(2000);
     }
