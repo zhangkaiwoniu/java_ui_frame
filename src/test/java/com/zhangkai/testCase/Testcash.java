@@ -23,7 +23,7 @@ public class Testcash {
     public void openBrowers() {
         driver = SeleniumDriver.openBrowers("chrome");
         driver.get(url);
-        LoginModule.login("18909276261","zk18909276261");
+        LoginModule.login("1890927","z");
     }
 
     @AfterClass
